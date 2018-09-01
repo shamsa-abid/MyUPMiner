@@ -10,7 +10,7 @@ During software development, a developer often needs to discover specific usage 
 
 ### Architecture
 
-![Image of UPMiner Architecture](https://github.com/shamsa-abid/MyUPMiner/blob/master/Architecture.PNG)
+![Image of UPMiner Architecture](https://github.com/shamsa-abid/MyUPMiner/blob/master/Architecture.png)
 
 
 
