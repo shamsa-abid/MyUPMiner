@@ -1,10 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome to MyUPMiner
+This is a project Ive started as part of my reimplmentation of a research tool called UPMiner. Its purpose is to recommend API usage sequences after mining API usages from source code.
 
-You can use the [editor on GitHub](https://github.com/shamsa-abid/MyUPMiner/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
