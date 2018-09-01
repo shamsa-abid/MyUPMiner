@@ -1,34 +1,18 @@
 ## Welcome to MyUPMiner
-This is a project Ive started as part of my reimplmentation of a research tool called UPMiner. Its purpose is to recommend API usage sequences after mining API usages from source code.
+This is a project Ive started as part of my reimplmentation of a research tool called UPMiner. Its purpose is to recommend API usage sequences after mining API usages from source code
 
-### 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+For more details see [Mining succinct and high-coverage API usage patterns from source code]https://dl.acm.org/citation.cfm?id=2487146).
 
-```markdown
-Syntax highlighted code block
+### Abstract
 
-# Header 1
-## Header 2
-### Header 3
+During software development, a developer often needs to discover specific usage patterns of Application Programming Interface (API) methods. However, these usage patterns are often not well documented. To help developers to get such usage patterns, there are approaches proposed to mine client code of the API methods. However, they lack metrics to measure the quality of the mined usage patterns, and the API usage patterns mined by the existing approaches tend to be many and redundant, posing significant barriers for being practical adoption. To address these issues, in this paper, we propose two quality metrics (succinctness and coverage) for mined usage patterns, and further propose a novel approach called Usage Pattern Miner (UP-Miner) that mines succinct and high-coverage usage patterns of API methods from source code. We have evaluated our approach on a large-scale Microsoft codebase. The results show that our approach is effective and outperforms an existing representative approach MAPO. The user studies conducted with Microsoft developers confirm the usefulness of the proposed approach in practice.
 
-- Bulleted
-- List
+### Architecture
+![Image of Yaktocat](https://shamsa-abid.github.com/MyUPminer/Archietcture.png)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### References
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shamsa-abid/MyUPMiner/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Wang, J., Dang, Y., Zhang, H., Chen, K., Xie, T., & Zhang, D. (2013, May). Mining succinct and high-coverage API usage patterns from source code. In Proceedings of the 10th Working Conference on Mining Software Repositories (pp. 319-328). IEEE Press.
