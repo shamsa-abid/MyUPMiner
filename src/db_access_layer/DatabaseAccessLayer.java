@@ -162,7 +162,7 @@ public class DatabaseAccessLayer {
     			sequence = sequence.substring(0, sequence.length()-1);
     			SequenceInsertion.setInt(1, prev_methodID);   
     			SequenceInsertion.setString(2, sequence);       			
-    			SequenceInsertion.executeUpdate();  
+    			SequenceInsertion.addBatch();  
     			sequence = "";
     			sequence = sequence.concat(Integer.toString(index_id)+ " ");
     			
@@ -170,6 +170,7 @@ public class DatabaseAccessLayer {
     		prev_methodID = method_id;
     		
     	}
+    	SequenceInsertion.executeBatch();
     	apiCallsResultSet.close();
     	APICallSelection.close();
     	SequenceInsertion.close();
@@ -186,12 +187,17 @@ public class DatabaseAccessLayer {
 		{
 			int method_ID_1 = seqResultSet1.getInt(2);
 			String sequence1 = seqResultSet1.getString(3);
+			//just a temporary check to only process strings with length <= 100
+			if(sequence1.length() > 100)
+				continue;
 			
 			ResultSet seqResultSet2 = SequenceSelection2.executeQuery();
 			while(seqResultSet2.next())
 			{
 				int method_ID_2 = seqResultSet2.getInt(2);
 				String sequence2 = seqResultSet2.getString(3);
+				if(sequence2.length() > 100)
+					continue;
 				double score = Utilities.SeqSimCalculation.seqSim(sequence1, sequence2);
 				//insert in sim_score
 				ScoreInsertion.setInt(1, method_ID_1);   
@@ -199,13 +205,13 @@ public class DatabaseAccessLayer {
 				DecimalFormat df = new DecimalFormat("#.###");
 				
     			ScoreInsertion.setDouble(3, Double.parseDouble(df.format(score)));       			
-    			ScoreInsertion.executeUpdate(); 
+    			ScoreInsertion.addBatch(); 
 			}
 			seqResultSet2.close();
 		}
 		
 		seqResultSet1.close();
-		
+		ScoreInsertion.executeBatch();
 		SequenceSelection1.close();
 		SequenceSelection2.close();
 		SequenceInsertion.close();

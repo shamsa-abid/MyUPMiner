@@ -41,17 +41,17 @@ public class SeqSimCalculation {
 		//print intersection 
 		System.out.println("Printing intersection");
 		Set<String> keys = GIntersection.keySet();
-        for(String k:keys){
-            System.out.println(k);
-        }
+        //for(String k:keys){
+         //   System.out.println(k);
+        //}
 		//get union
 		GUnion.putAll(union(ngramsSeq1, ngramsSeq2));		
 		//print union
 		System.out.println("Printing union");
 		Set<String> unionkeys = GUnion.keySet();
-        for(String k:unionkeys){
-            System.out.println(k);
-        }
+        //for(String k:unionkeys){
+        //    System.out.println(k);
+        //}
 		
 		//calculate seq simm by formula
 		double score = getSumofWeights(GIntersection)/getSumofWeights(GUnion);
@@ -170,7 +170,7 @@ public class SeqSimCalculation {
 	        //ngrams.put(igram);
 	        //NGram ng = new NGram(igram, igram.length()-spaceCount+1);
 	        ngramObjects.put(igram, igram.length()-spaceCount+1);
-	        System.out.println(igram);
+	        //System.out.println(igram);
 	        if(igram.length()== str.length())
 	        {
 	        	isMaxGram = true;
