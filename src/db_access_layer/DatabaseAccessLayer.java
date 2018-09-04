@@ -8,9 +8,11 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.stream.Stream;
 
 import DataObjects.APICall;
+import DataObjects.ClusterDTO;
 
 
 public class DatabaseAccessLayer {
@@ -28,6 +30,7 @@ public class DatabaseAccessLayer {
 	private PreparedStatement ScoreInsertion;
 	private PreparedStatement SimScoreSelection;
 	private PreparedStatement DistinctMethodIDSelection;
+	private PreparedStatement ClusterInsertion;
 		
 	 public static DatabaseAccessLayer getInstance() { 
 	        return DatabaseAccessLayer.SINGLETON;
@@ -78,6 +81,7 @@ public class DatabaseAccessLayer {
 
         this.SimScoreSelection = this.connector.prepareStatement(
    				"SELECT id, method_ID_1, method_ID_2, score from sim_score");
+       
         
 		this.connector.setAutoCommit(false);
 		
@@ -107,7 +111,7 @@ public class DatabaseAccessLayer {
     			int index_id = apiCallIndexResultSet.getInt(1);
     			APICallUpdation.setInt(1, index_id);
     			APICallUpdation.setInt(2, apiCall.id);
-    			APICallUpdation.execute();
+    			APICallUpdation.addBatch();
         	}
     		else
     		{
@@ -120,14 +124,15 @@ public class DatabaseAccessLayer {
                 	//update the api_call_index column in api_call table with the id
         			APICallUpdation.setInt(1, index_id);
         			APICallUpdation.setInt(2, apiCall.id);
-        			APICallUpdation.execute();
+        			APICallUpdation.addBatch();
                 }
                 rs.close();
         		
     		}
     		apiCallIndexResultSet.close();
 
-    	}            
+    	}
+    	APICallUpdation.executeBatch();
     	apiCallsResultSet.close();
     	APICallSelection.close();
     	APICallIndexSelection.close();
@@ -260,13 +265,16 @@ public class DatabaseAccessLayer {
 		
 	}
 	public void initializeConnectorForGettingDistanceMatrixLabels() throws ClassNotFoundException, SQLException {
+		
 		Class.forName("com.mysql.jdbc.Driver");
         // Setup the connection with the DB
         this.connector = DriverManager.getConnection(Utilities.Constants.DATABASE);       
 
+        // this.DistinctMethodIDSelection = this.connector.prepareStatement(
+   		//		"SELECT DISTINCT method_ID_1 from sim_score");
         this.DistinctMethodIDSelection = this.connector.prepareStatement(
-   				"SELECT DISTINCT method_ID_1 from sim_score");
-        
+   				"SELECT DISTINCT method_ID_1, sequence.id FROM sim_score INNER JOIN sequence ON sim_score.method_ID_1 = sequence.method_ID");
+        this.ClusterInsertion = this.connector.prepareStatement("INSERT INTO cluster VALUES(0,?,?,?)");     
 		this.connector.setAutoCommit(false);
 		
 	}
@@ -278,6 +286,7 @@ public class DatabaseAccessLayer {
 		while(resultSet.next())
 		{
 			int method_ID = resultSet.getInt(1);
+			int seq_ID = resultSet.getInt(2);
 			labels.add(method_ID);
 			
 		}
@@ -286,8 +295,39 @@ public class DatabaseAccessLayer {
 		{
 			my_labels[i] = labels.get(i).toString();
 		}
+		//DistinctMethodIDSelection.close();
 		return my_labels;
 	}
 	
+	public LinkedHashMap<Integer, Integer> getMethodSequenceMapping() throws SQLException {
+		
+		LinkedHashMap<Integer, Integer> methodSeqMap = new LinkedHashMap<Integer, Integer>();		
+		ResultSet resultSet = DistinctMethodIDSelection.executeQuery();
+		
+		while(resultSet.next())
+		{
+			int method_ID = resultSet.getInt(1);
+			int seq_ID = resultSet.getInt(2);
+			methodSeqMap.put(method_ID, seq_ID);
+			
+		}
+		DistinctMethodIDSelection.close();
+		return methodSeqMap;
+	}
+	public void insertClusters(ArrayList<ClusterDTO> clusterDTOsList) throws SQLException {
+		for(ClusterDTO cluster: clusterDTOsList)
+		{
+			ClusterInsertion.setInt(1, cluster.clusterID);   
+			ClusterInsertion.setInt(2, cluster.seqID);    
+			ClusterInsertion.setInt(3, cluster.methodID);  
+			ClusterInsertion.addBatch();  
+		}
+		
+		int[] inserted = ClusterInsertion.executeBatch();
+		ClusterInsertion.close();
+		connector.commit();
+	}
+	
+
 	
 }
