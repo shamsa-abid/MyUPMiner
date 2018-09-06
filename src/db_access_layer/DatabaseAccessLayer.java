@@ -60,7 +60,7 @@ public class DatabaseAccessLayer {
         this.connector = DriverManager.getConnection(Utilities.Constants.DATABASE);       
 
         this.APICallSelection = this.connector.prepareStatement(
-   				"SELECT id, host_method_id, api_call_index_id from api_call");
+   				"SELECT id, host_method_id, api_call_index_id from api_call where host_method_id != 0 order by host_method_id ASC");
         this.SequenceInsertion = this.connector
 				.prepareStatement("INSERT INTO sequence VALUES(0,?,?)");//, Statement.RETURN_GENERATED_KEYS); 
         this.SequenceSelection1 = this.connector.prepareStatement(
@@ -170,6 +170,11 @@ public class DatabaseAccessLayer {
     		prev_methodID = method_id;
     		
     	}
+    	sequence = sequence.substring(0, sequence.length()-1);
+		SequenceInsertion.setInt(1, prev_methodID);   
+		SequenceInsertion.setString(2, sequence);       			
+		SequenceInsertion.addBatch();  
+		
     	SequenceInsertion.executeBatch();
     	apiCallsResultSet.close();
     	APICallSelection.close();
@@ -183,6 +188,7 @@ public class DatabaseAccessLayer {
 		String seq1 = "a b c";
 		String seq2 = "c a b";
 		ResultSet seqResultSet1 = SequenceSelection1.executeQuery();
+		int comparison_num = 0;
 		while(seqResultSet1.next())
 		{
 			int method_ID_1 = seqResultSet1.getInt(2);
@@ -199,6 +205,8 @@ public class DatabaseAccessLayer {
 				if(sequence2.length() > 100)
 					continue;
 				double score = Utilities.SeqSimCalculation.seqSim(sequence1, sequence2);
+				System.out.println(comparison_num);
+				comparison_num += 1;
 				//insert in sim_score
 				ScoreInsertion.setInt(1, method_ID_1);   
 				ScoreInsertion.setInt(2, method_ID_2); 

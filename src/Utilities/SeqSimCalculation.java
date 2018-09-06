@@ -39,7 +39,7 @@ public class SeqSimCalculation {
 		
 		//GIntersection = intersection(ngramsSeq1, ngramsSeq2);	
 		//print intersection 
-		System.out.println("Printing intersection");
+		//System.out.println("Printing intersection");
 		Set<String> keys = GIntersection.keySet();
         //for(String k:keys){
          //   System.out.println(k);
@@ -47,7 +47,7 @@ public class SeqSimCalculation {
 		//get union
 		GUnion.putAll(union(ngramsSeq1, ngramsSeq2));		
 		//print union
-		System.out.println("Printing union");
+		//System.out.println("Printing union");
 		Set<String> unionkeys = GUnion.keySet();
         //for(String k:unionkeys){
         //    System.out.println(k);
@@ -55,7 +55,7 @@ public class SeqSimCalculation {
 		
 		//calculate seq simm by formula
 		double score = getSumofWeights(GIntersection)/getSumofWeights(GUnion);
-		System.out.println(score);
+		//System.out.println(score);
 		return score;
 	}
 	
