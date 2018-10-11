@@ -15,12 +15,12 @@ public class PairwiseSequenceScoring {
 		//iterate over the api_call table and host_method_id column and
 		//for every new methodID, persist the api_call_index_id accumulated so far in a string into the sequence table
 		//=====Step1=======
-		//dbLayer.populateSequenceTable();
+		dbLayer.populateSequenceTable();
 		
 		//======Step2======
 		//Calculating the scores
 		
-		dbLayer.populateSimScoreTable();
+		//dbLayer.populateSimScoreTable();
 		dbLayer.closeConnector();
 	}
 	

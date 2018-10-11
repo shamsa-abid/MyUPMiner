@@ -31,6 +31,9 @@ public class DatabaseAccessLayer {
 	private PreparedStatement SimScoreSelection;
 	private PreparedStatement DistinctMethodIDSelection;
 	private PreparedStatement ClusterInsertion;
+	//for R
+	private PreparedStatement SequenceSelection;
+	private PreparedStatement ClustersInsertion;
 		
 	 public static DatabaseAccessLayer getInstance() { 
 	        return DatabaseAccessLayer.SINGLETON;
@@ -42,7 +45,7 @@ public class DatabaseAccessLayer {
         this.connector = DriverManager.getConnection(Utilities.Constants.DATABASE);       
 
         this.APICallSelection = this.connector.prepareStatement(
-   				"SELECT id, api_name, api_usage from api_call");
+   				"SELECT id, api_name, api_usage from api_call where api_name NOT IN ('Toast', 'Log','Intent','EditText') ");
         this.APICallIndexSelection = this.connector
 				.prepareStatement("SELECT id FROM api_call_index WHERE INSTR(api_call, ?) > 0 ");
         this.APICallIndexInsertion = this.connector
@@ -60,7 +63,7 @@ public class DatabaseAccessLayer {
         this.connector = DriverManager.getConnection(Utilities.Constants.DATABASE);       
 
         this.APICallSelection = this.connector.prepareStatement(
-   				"SELECT id, host_method_id, api_call_index_id from api_call where host_method_id != 0 order by host_method_id ASC");
+   				"SELECT id, host_method_id, api_call_index_id from api_call where api_name NOT IN ('Toast', 'Log','Intent','EditText') and host_method_id != 0 order by host_method_id ASC");
         this.SequenceInsertion = this.connector
 				.prepareStatement("INSERT INTO sequence VALUES(0,?,?)");//, Statement.RETURN_GENERATED_KEYS); 
         this.SequenceSelection1 = this.connector.prepareStatement(
@@ -86,6 +89,19 @@ public class DatabaseAccessLayer {
 		this.connector.setAutoCommit(false);
 		
 	}
+    
+    public void initializeConnectorToWriteClustersFromR() throws Exception
+    {
+    	Class.forName("com.mysql.jdbc.Driver");
+        // Setup the connection with the DB
+        this.connector = DriverManager.getConnection(Utilities.Constants.DATABASE);       
+
+        this.SequenceSelection = this.connector.prepareStatement(
+   				"SELECT id, method_ID from sequence");
+        this.ClusterInsertion = this.connector.prepareStatement("INSERT INTO cluster VALUES(0,?,?,?)");     
+		this.connector.setAutoCommit(false);
+    }
+    
     public void closeConnector() throws SQLException{
     	this.connector.close();
     }
@@ -288,7 +304,8 @@ public class DatabaseAccessLayer {
    		//		"SELECT DISTINCT method_ID_1 from sim_score");
         this.DistinctMethodIDSelection = this.connector.prepareStatement(
    				"SELECT DISTINCT method_ID_1, sequence.id FROM sim_score INNER JOIN sequence ON sim_score.method_ID_1 = sequence.method_ID");
-        this.ClusterInsertion = this.connector.prepareStatement("INSERT INTO cluster VALUES(0,?,?,?)");     
+        this.ClusterInsertion = this.connector.prepareStatement("INSERT INTO cluster VALUES(0,?,?,?)");   
+       
 		this.connector.setAutoCommit(false);
 		
 	}
@@ -328,6 +345,23 @@ public class DatabaseAccessLayer {
 		DistinctMethodIDSelection.close();
 		return methodSeqMap;
 	}
+	
+public LinkedHashMap<Integer, Integer> getSeqIDMethodIDMapping() throws SQLException {
+		
+		LinkedHashMap<Integer, Integer> sMap = new LinkedHashMap<Integer, Integer>();		
+		ResultSet resultSet = SequenceSelection.executeQuery();
+		
+		while(resultSet.next())
+		{		
+			int seq_ID = resultSet.getInt(1);
+			int method_ID = resultSet.getInt(2);
+			sMap.put(seq_ID, method_ID);
+			
+		}
+		SequenceSelection.close();
+		return sMap;
+	}
+
 	public void insertClusters(ArrayList<ClusterDTO> clusterDTOsList) throws SQLException {
 		for(ClusterDTO cluster: clusterDTOsList)
 		{

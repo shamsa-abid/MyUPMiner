@@ -31,7 +31,7 @@ public class DistanceMatrix {
     	my_names = getMatrixLabels();
     	System.out.println("Success!");
     	ClusteringAlgorithm clustering_algo = new DefaultClusteringAlgorithm();
-    	Double threshold = 0.800;		
+    	Double threshold = 0.8;		
     	List<Cluster> clustersList = clustering_algo.performFlatClustering(my_distancematrix, my_names, new CompleteLinkageStrategy(), threshold);
     	//the lines below are for the case of generating one cluster of all the data
 		//Cluster c = DendrogramPanel.createCluster(my_distancematrix, my_names);
