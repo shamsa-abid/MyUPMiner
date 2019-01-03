@@ -11,5 +11,10 @@ public class Constants {
 	//ten bluetooth projects
 	//public static String DATABASE = "jdbc:mysql://localhost/facer_test_repo_9_6_2018?useSSL=false&user=root";
 	//public static String DATABASE = "jdbc:mysql://localhost/facer_test_repo_exp_1?useSSL=false&user=root";
-	public static String DATABASE = "jdbc:mysql://localhost/fold1?useSSL=false&user=root";
+	//public static String DATABASE = "jdbc:mysql://localhost/fold10?useSSL=false&user=root";
+	
+	//167 projects
+	
+	//public static String DATABASE = "jdbc:mysql://localhost/facer_test_repo_27_4_2018?useSSL=false&user=root";
+	public static String DATABASE = "jdbc:mysql://localhost/musicplayer?useSSL=false&user=root";
 }

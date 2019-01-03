@@ -24,7 +24,7 @@ public class WriteClusters {
 		//then read a csv file and parse it to get the cluster IDs in an array
 		//LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDs("clusterIDs.csv");
 		//LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDSequenceIDsMapping("clusterIDs10projectwithignore.csv");
-		LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDSequenceIDsMapping("clusterIDs_fold1.csv");
+		LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDSequenceIDsMapping("F:/PhD/PhD Defense/Code/R/clusterIDs_musicplayer_all_seqid.csv");
 		
 		//and store the clsuterDTO with the obtained IDs in the clsuterDTO list
 		Set<Entry<Integer, ArrayList<Integer>>> entries = clusterIDList.entrySet();

@@ -1,5 +1,13 @@
 package db_access_layer;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -21,6 +29,7 @@ public class DatabaseAccessLayer {
 	private Connection connector;
 	
 	private PreparedStatement APICallSelection;
+	private PreparedStatement APIDataSelection;
 	private PreparedStatement APICallIndexSelection;
 	private PreparedStatement APICallIndexInsertion;
 	private PreparedStatement APICallUpdation;
@@ -64,6 +73,8 @@ public class DatabaseAccessLayer {
 
         this.APICallSelection = this.connector.prepareStatement(
    				"SELECT id, host_method_id, api_call_index_id from api_call where api_name NOT IN ('Toast', 'Log','Intent','EditText') and host_method_id != 0 order by host_method_id ASC");
+        this.APIDataSelection = this.connector.prepareStatement(
+   				"SELECT id, host_method_id, api_name, api_usage from api_call where api_name NOT IN ('Toast', 'Log','Intent','EditText') and host_method_id != 0 order by host_method_id ASC");
         this.SequenceInsertion = this.connector
 				.prepareStatement("INSERT INTO sequence VALUES(0,?,?)");//, Statement.RETURN_GENERATED_KEYS); 
         this.SequenceSelection1 = this.connector.prepareStatement(
@@ -374,6 +385,56 @@ public LinkedHashMap<Integer, Integer> getSeqIDMethodIDMapping() throws SQLExcep
 		int[] inserted = ClusterInsertion.executeBatch();
 		ClusterInsertion.close();
 		connector.commit();
+	}
+	public void writeSequencesToCSV(String filename) throws SQLException, IOException {
+		ResultSet apiCallsResultSet = APIDataSelection.executeQuery();
+		String sequence = "";
+		int prev_methodID = -1;
+		
+		
+		File file = new File(filename);
+		FileWriter fr = new FileWriter(file, true);
+		BufferedWriter br = new BufferedWriter(fr);
+		
+
+		
+	    
+
+    	//iterate on every api call
+    	while(apiCallsResultSet.next())
+    	{       
+    		int method_id = apiCallsResultSet.getInt(2);
+    		String api_name = apiCallsResultSet.getString(3);
+    		String api_usage = apiCallsResultSet.getString(4);
+    		
+    		if(method_id == prev_methodID || prev_methodID == -1)
+    			sequence = sequence.concat(api_name+ "." + api_usage + " ");
+    		else
+    		{
+    			//insert sequence string in sequence table
+    			//remove the last space
+    			sequence = sequence.substring(0, sequence.length()-1);
+    			sequence = sequence.concat("\n");
+    			//write the sequence to file    			
+    		    br.write(sequence);
+    			//start building new sequence for new method
+    			sequence = "";
+    			sequence = sequence.concat(api_name+ "." + api_usage + " ");
+    			
+    		}
+    		prev_methodID = method_id;
+    		
+    	}
+    	sequence = sequence.substring(0, sequence.length()-1);
+    	//write the last sequence to file
+    	br.write(sequence);
+    	
+    	apiCallsResultSet.close();
+    	APIDataSelection.close();
+    	br.close();
+		fr.close();
+    	connector.commit();
+		
 	}
 	
 

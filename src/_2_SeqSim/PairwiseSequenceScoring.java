@@ -16,6 +16,7 @@ public class PairwiseSequenceScoring {
 		//for every new methodID, persist the api_call_index_id accumulated so far in a string into the sequence table
 		//=====Step1=======
 		dbLayer.populateSequenceTable();
+		//dbLayer.writeSequencesToCSV("sequencesForMusicPlayerProjects.csv");
 		
 		//======Step2======
 		//Calculating the scores

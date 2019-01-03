@@ -1,0 +1,952 @@
+ListView.setOnItemClickListener ListView.getItemAtPosition ArrayAdapter.new ListView.setAdapter
+BluetoothManager.ConnectionType.equals
+Integer.parseInt
+BluetoothManager.ConnectionType.equals
+BluetoothManager.ConnectionType.equals
+BluetoothManager.ConnectionType.equals BluetoothManager.ConnectionType.equals Integer.parseInt
+BluetoothAdapter.getDefaultAdapter
+BluetoothAdapter.isDiscovering BluetoothAdapter.cancelDiscovery BluetoothAdapter.startDiscovery
+IntentFilter.new
+BroadcastReceiver.new
+ArrayList<BluetoothDeviceInfo>.add BluetoothDevice.getName BluetoothDevice.getAddress
+BluetoothAdapter.isDiscovering BluetoothAdapter.cancelDiscovery
+BluetoothAdapter.getDefaultAdapter
+String.substring String.length BluetoothAdapter.getRemoteDevice uuids.size uuids.get e.printStackTrace
+StringBuilder.append BluetoothAdapter.getName String.contains StringBuilder.append String.substring recMsg.call String.substring String.contains Integer.parseInt String.substring recMsg.call String.substring String.contains String.contains String.substring Integer.parseInt String.valueOf String.charAt String.contains String.contains StringBuilder.substring Integer.parseInt String.valueOf String.charAt recMsg.call
+String.getBytes
+BluetoothAdapter.getName
+BluetoothDevice.createRfcommSocketToServiceRecord e.printStackTrace
+BluetoothAdapter.cancelDiscovery BluetoothSocket.connect connectException.printStackTrace
+BluetoothSocket.close e.printStackTrace
+BluetoothSocket.new uuids.size uuids.size
+sb.append BluetoothAdapter.getName String.contains sb.append String.substring recMsg.call String.substring String.contains Integer.parseInt String.substring recMsg.call String.substring String.contains String.contains String.substring Integer.parseInt String.valueOf String.charAt String.contains String.contains sb.substring Integer.parseInt String.valueOf String.charAt recMsg.call
+String.getBytes
+uuids.size BluetoothAdapter.listenUsingRfcommWithServiceRecord uuids.get e.printStackTrace BluetoothServerSocket.accept BluetoothSocket.equals BluetoothServerSocket.close e.printStackTrace
+BluetoothSocket.getInputStream BluetoothSocket.getOutputStream e.printStackTrace
+InputStream.read String.new e.printStackTrace
+OutputStream.write e.printStackTrace
+InputStream.close OutputStream.close BluetoothSocket.close e.printStackTrace
+Parcel.readString Parcel.readString
+Parcel.writeString Parcel.writeString Parcelable.new
+ArrayList<UUID>.add UUID.fromString ArrayList<UUID>.add UUID.fromString ArrayList<UUID>.add UUID.fromString ArrayList<UUID>.add UUID.fromString
+View.findViewById View.findViewById View.findViewById
+LayoutInflater.from ViewGroup.getContext
+List<States_Api_Json>.get
+List<States_Api_Json>.size
+Typeface.createFromAsset
+View.animate View.setTranslationY View.setAlpha View.animate
+Context.obtainStyledAttributes TypedArray.getDrawable TypedArray.recycle
+RecyclerView.getPaddingLeft RecyclerView.getWidth RecyclerView.getPaddingRight RecyclerView.getChildCount RecyclerView.getChildAt View.getLayoutParams View.getBottom Drawable.getIntrinsicHeight Drawable.setBounds Drawable.draw
+RecyclerView.getPaddingTop RecyclerView.getHeight RecyclerView.getPaddingBottom RecyclerView.getChildCount RecyclerView.getChildAt View.getLayoutParams View.getRight Drawable.getIntrinsicHeight Drawable.setBounds Drawable.draw
+Rect.set Drawable.getIntrinsicHeight Rect.set Drawable.getIntrinsicWidth
+GestureDetector.new GestureDetector.new
+RecyclerView.findChildViewUnder MotionEvent.getX MotionEvent.getY GestureDetector.onTouchEvent RecyclerView.getChildAdapterPosition
+FloatingActionButton.getLayoutParams FloatingActionButton.getHeight View.getY FloatingActionButton.setTranslationY
+Context.getTheme TypedArray.getDimension TypedArray.recycle
+Context.getResources
+AlphaInAnimationAdapter.new AlphaInAnimationAdapter.setDuration ScaleInAnimationAdapter.new ScaleInAnimationAdapter.setDuration SlideInBottomAnimationAdapter.new SlideInBottomAnimationAdapter.setDuration SlideInRightAnimationAdapter.new SlideInRightAnimationAdapter.setDuration SlideInLeftAnimationAdapter.new SlideInLeftAnimationAdapter.setDuration AlphaInAnimationAdapter.new AlphaInAnimationAdapter.setDuration
+LayoutInflater.inflate Bundle.getParcelableArrayList
+ActivityCompat.requestPermissions String.new
+RecyclerView.setAdapter RecyclerView.setHasFixedSize
+View.findViewById LinearLayoutManager.new LinearLayoutManager.setOrientation RecyclerView.setLayoutManager RecyclerView.addItemDecoration RecyclerView.setItemAnimator
+Bundle.putParcelableArrayList
+ActivityCompat.requestPermissions String.new
+ActionBarDrawerToggle.new DrawerLayout.setDrawerListener ActionBarDrawerToggle.syncState NavigationView.setNavigationItemSelectedListener
+DrawerLayout.isDrawerOpen DrawerLayout.closeDrawer
+MenuItem.getItemId DrawerLayout.closeDrawer
+FragmentTransaction.replace FragmentTransaction.commit
+Realm.init
+NiftyDialogBuilder.getInstance NiftyDialogBuilder.withTitle ContextCompat.getColor Context.getResources
+ContextCompat.getColor Context.getResources View.new NiftyDialogBuilder.dismiss NiftyDialogBuilder.getInstance NiftyDialogBuilder.withTitle ContextCompat.getColor Context.getResources View.new NiftyDialogBuilder.dismiss NiftyDialogBuilder.getInstance NiftyDialogBuilder.withTitle
+NiftyDialogBuilder.getInstance NiftyDialogBuilder.withTitle View.new NiftyDialogBuilder.dismiss
+NiftyDialogBuilder.getInstance NiftyDialogBuilder.withTitle View.new NiftyDialogBuilder.dismiss View.new NiftyDialogBuilder.dismiss
+NiftyDialogBuilder.getInstance NiftyDialogBuilder.withTitle View.new NiftyDialogBuilder.dismiss
+RelativeLayout.new RelativeLayout.new RelativeLayout.setBackgroundColor RelativeLayout.setPadding RelativeLayout.setGravity RelativeLayout.setLayoutParams TextView.new TextView.setText TextView.setTextColor RelativeLayout.addView
+Context.getSystemService ConnectivityManager.getAllNetworkInfo ni.getTypeName ni.isConnected ni.getTypeName ni.isConnected
+Context.getSystemService ConnectivityManager.getActiveNetworkInfo NetworkInfo.getType NetworkInfo.getType
+Context.getSystemService ConnectivityManager.getActiveNetworkInfo NetworkInfo.getType
+Context.getSystemService ConnectivityManager.getActiveNetworkInfo NetworkInfo.isConnected
+Runtime.getRuntime Runtime.exec Process.waitFor e.printStackTrace e.printStackTrace Context.getSystemService ConnectivityManager.getActiveNetworkInfo NetworkInfo[].isConnectedOrConnecting
+OkHttpClient.new Request.new OkHttpClient.newCall e.printStackTrace
+Parcel.readInt Parcel.readString Parcel.readString Parcel.readString Parcel.readString Parcel.readString Parcel.readString Parcel.readString Parcel.readString Parcel.readString Parcel.readString Parcel.readString Parcel.readString Parcel.readString Parcel.readString
+Parcel.writeInt Parcel.writeString Parcel.writeString Parcel.writeString Parcel.writeString Parcel.writeString Parcel.writeString Parcel.writeString Parcel.writeString Parcel.writeString Parcel.writeString Parcel.writeString Parcel.writeString Parcel.writeString Parcel.writeString
+Context.startService
+Context.stopService
+Context.startService
+Context.stopService
+Service.getClass Service.getUuid Service.getCharacteristics Service.getIncludedServices
+Set<BluetoothDevice>.toArray BluetoothDevice.new Set<BluetoothDevice>.size
+Arrays.toString
+BluetoothAdapter.isEnabled
+Handler.new Handler.postDelayed BluetoothAdapter.startLeScan
+BluetoothAdapter.stopLeScan BluetoothAdapter.new
+Set<BluetoothDevice>.add
+BluetoothGatt.connect BluetoothDevice.connectGatt
+BluetoothGatt.close BluetoothGattCallback.new
+BluetoothGatt.discoverServices BluetoothDevice.connectGatt
+BluetoothDevice.getName
+Resources.getString Resources.getString Resources.getString Resources.getString Paint.new Paint.setColor Resources.getColor Paint.setStrokeWidth Paint.setStyle Paint.new Paint.setColor Resources.getColor Paint.setStrokeWidth Paint.new Paint.setColor Resources.getColor Paint.setStrokeWidth Paint.new Paint.setColor Resources.getColor Paint.setStrokeWidth Paint.setTextSize Paint.measureText
+Math.min
+Math.min Canvas.drawCircle Canvas.save Paint.measureText Canvas.drawLine Canvas.save Canvas.translate Canvas.drawText String.valueOf Paint.measureText Canvas.drawText Canvas.restore Canvas.rotate Canvas.rotate Canvas.drawLine Canvas.drawLine Canvas.restore Paint.setTextSize Canvas.drawText Paint.setTextSize Canvas.drawText
+Runnable.run
+MenuItem.getItemId AlertDialog.new AlertDialog.Builder.setTitle DialogInterface.new AlertDialog.Builder.create AlertDialog.show
+LayoutInflater.from ViewGroup.findViewById ViewGroup.findViewById Math.random ViewGroup.findViewById Math.random ViewGroup.findViewById View.new ViewGroup.findViewById ViewGroup.removeView ViewGroup.getChildCount ViewGroup.findViewById View.new ViewGroup.findViewById ViewGroup.findViewById View.new ViewGroup.findViewById ViewGroup.findViewById View.new ViewGroup.findViewById ViewGroup.addView String.new String.new String.new
+Handler.postDelayed View.findViewById String.compareTo View.findViewById View.findViewById String.compareTo View.findViewById View.findViewById String.compareTo View.findViewById View.findViewById
+AlertDialog.new AlertDialog.Builder.setTitle DialogInterface.new AlertDialog.Builder.create
+float[].clone
+Paint.setStyle Paint.setColor Canvas.drawLine
+FloatMath.ceil
+Paint.setDither Paint.setStyle Paint.setStrokeJoin Paint.setStrokeCap Paint.setPathEffect Paint.setAntiAlias Canvas.drawPath Paint.setShadowLayer Path.new Path.moveTo Path.lineTo Paint.setStyle Paint.setStrokeWidth Paint.setColor Paint.setAntiAlias Paint.setShadowLayer
+Random.new Random.nextInt Random.new Random.nextInt Handler.postDelayed
+Runnable.run
+Handler.postDelayed
+Runnable.run
+StringBuilder.new UUID.fromString Handler.new Runnable.new
+BluetoothAdapter.getDefaultAdapter BluetoothAdapter.getRemoteDevice e.getMessage BluetoothAdapter.cancelDiscovery BluetoothSocket.connect BluetoothSocket.close e2.getMessage
+BluetoothDevice.getClass Method.invoke BluetoothDevice.createRfcommSocketToServiceRecord
+String.lastIndexOf String.substring String.lastIndexOf String.substring Integer.parseInt String.lastIndexOf String.substring
+BluetoothAdapter.isEnabled
+BluetoothSocket.getInputStream BluetoothSocket.getOutputStream BluetoothSocket.getInputStream BluetoothSocket.getOutputStream
+InputStream.read String.new StringBuilder.append StringBuilder.indexOf StringBuilder.substring StringBuilder.delete StringBuilder.length InputStream.read String.new StringBuilder.append StringBuilder.indexOf StringBuilder.substring StringBuilder.delete StringBuilder.length
+StringBuilder.new UUID.fromString Handler.new Runnable.new
+Handler.postDelayed
+Runnable.run
+BluetoothAdapter.getDefaultAdapter BluetoothAdapter.getRemoteDevice e.getMessage BluetoothAdapter.cancelDiscovery BluetoothSocket.connect BluetoothSocket.close e2.getMessage
+BluetoothDevice.getClass Method.invoke BluetoothDevice.createRfcommSocketToServiceRecord
+String.lastIndexOf String.substring String.lastIndexOf String.substring Integer.parseInt String.lastIndexOf String.substring
+BluetoothAdapter.isEnabled
+Handler.new Runnable.new
+Runnable.run
+MenuItem.getItemId
+Random.new String.compareTo String.compareTo String.compareTo Handler.postDelayed
+BluetoothAdapter.getDefaultAdapter ListView.setAdapter ListView.setOnItemClickListener ContextCompat.checkSelfPermission ActivityCompat.requestPermissions String.new Handler.new String.new e.printStackTrace TextView.setText TextView.setText TextView.setText TextView.setText CheckBox.setOnClickListener View.new Button.setOnClickListener View.new Button.setOnClickListener View.new Button.setOnClickListener View.new Button.setOnClickListener View.new
+BluetoothAdapter.isEnabled TextView.setText
+TextView.setText TextView.setText
+BluetoothAdapter.disable TextView.setText
+BluetoothAdapter.isDiscovering BluetoothAdapter.cancelDiscovery BluetoothAdapter.isEnabled ArrayAdapter<String>.clear BluetoothAdapter.startDiscovery BroadcastReceiver.new
+ArrayAdapter<String>.add BluetoothDevice.getName BluetoothDevice.getAddress ArrayAdapter<String>.notifyDataSetChanged
+BluetoothAdapter.getBondedDevices BluetoothAdapter.isEnabled ArrayAdapter<String>.add BluetoothDevice.getName BluetoothDevice.getAddress
+BluetoothAdapter.isEnabled TextView.setText String.substring String.length String.substring String.length Thread.new BluetoothAdapter.getRemoteDevice BluetoothSocket.connect BluetoothSocket.close Handler.obtainMessage Handler.obtainMessage
+BluetoothDevice.getClass Method.invoke BluetoothDevice.createRfcommSocketToServiceRecord
+BluetoothSocket.getInputStream BluetoothSocket.getOutputStream
+InputStream.available SystemClock.sleep InputStream.available InputStream.read Handler.obtainMessage e.printStackTrace
+String.getBytes OutputStream.write
+BluetoothSocket.close
+LayoutInflater.from DisplayMetrics.new Context.getSystemService WindowManager.getDefaultDisplay LayoutInflater.from List<T>.size
+List<T>.add List<T>.size List<T>.add List<T>.get
+List<T>.add List<T>.size List<T>.add
+List<T>.size List<T>.remove List<T>.add
+List<T>.addAll
+List<T>.clear List<T>.addAll
+List<T>.clear
+List<T>.size List<T>.remove
+List<T>.size
+List<T>.size List<T>.size List<T>.get
+mInflater.inflate View.findViewById View.findViewById View.setTag View.getTag BluetoothGattDescriptor.getUuid BluetoothGattDescriptor.getValue BluetoothGattDescriptor.getValue BluetoothGattDescriptor.getUuid mContext.getString BluetoothGattDescriptor.getValue BluetoothGattDescriptor.getUuid mContext.getString
+View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.setTag View.getTag String.length String.valueOf String.valueOf String.valueOf mContext.getString mContext.getString String.valueOf mContext.getString String.valueOf mInflater.inflate View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById
+Math.pow Math.pow
+Map<String,ConnectState>.put
+Map<String,ConnectState>.containsKey Map<String,ConnectState>.put Collections.sort
+List<BluetoothLeDevice>.size Map<String,ConnectState>.containsKey Map<String,ConnectState>.put Collections.sort
+mInflater.inflate View.setTag View.getTag
+String.length Map<String,ConnectState>.get mContext.getResources mContext.getResources
+ButterKnife.bind ButterKnife.bind
+List<Fragment>.get
+List<Fragment>.size
+String.new Activity.getLayoutInflater
+LayoutInflater.inflate View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.setTag View.getTag String.length String.valueOf String.valueOf String.valueOf Activity.getString Activity.getString String.valueOf Activity.getString String.valueOf
+mInflater.inflate View.findViewById View.setTag View.getTag
+Map<String,Boolean>.keySet Map<String,Boolean>.get List<BluetoothLeDevice>.add
+Map<String,Boolean>.put
+Map<String,Boolean>.put Map<String,Boolean>.put
+Map<String,Boolean>.clear
+List<BluetoothLeDevice>.size Map<String,Boolean>.containsKey Map<String,Boolean>.put Collections.sort
+mInflater.inflate View.setTag View.getTag
+String.length Map<String,Boolean>.get
+mInflater.inflate View.findViewById View.setTag View.getTag
+ListAdapter.registerDataSetObserver
+ArrayList<View>.add
+piece.getCount piece.getItem
+piece.getCount
+piece.getCount
+Math.max
+piece.getCount piece.isEnabled
+piece.getCount piece.getView
+piece.getCount piece.getItemId
+piece.getCount
+piece.getCount
+Collections.addAll Object[].size String.new Object[].toArray Object.new
+ArrayList<ListAdapter>.add
+piece.getCount
+RuntimeException.new RuntimeException.new
+RuntimeException.new RuntimeException.new
+List<View>.add
+List<View>.get
+List<View>.size
+List<View>.get List<View>.set
+List<View>.contains
+RuntimeException.new
+BleParamsOptions.Builder.setForegroundScanPeriod Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put Map<Integer,String>.put
+Map<String,BluetoothLeDevice>.put
+Map<String,BluetoothLeDevice>.clear
+Map<String,BluetoothLeDevice>.values Collections.sort arg0.getAddress arg1.getAddress
+Map<String,BluetoothLeDevice>.size
+StringBuilder.new StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append String.valueOf String.valueOf String.valueOf String.valueOf String.valueOf StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.toString
+System.currentTimeMillis Context.getString Context.getString Context.getCacheDir File.createTempFile File.setReadable Uri.fromFile String.new Context.startActivity Context.getString e.printStackTrace
+FileWriter.new FileWriter.append FileWriter.flush e.printStackTrace FileWriter.close e.printStackTrace
+NotificationManager.cancel
+NotificationManager.notify
+NotificationManager.notify File.exists File.isFile File.getPath Handler.obtainMessage Handler.sendMessage NotificationManager.cancel
+File.new File.exists File.new File.getPath File.exists File.delete Notification.new PendingIntent.getActivity NotificationManager.cancel NotificationManager.notify
+File.new File.exists File.mkdirs File.new File.getPath File.getPath File.exists File.isFile File.getPath Handler.obtainMessage Handler.sendMessage e.printStackTrace File.getPath
+PackageManager.getPackageArchiveInfo e.printStackTrace
+Uri.fromFile
+LayoutInflater.from View.findViewById TextView.setOnClickListener View.findViewById TextView.setOnClickListener View.findViewById ListView.setAdapter ListView.setOnItemClickListener
+ColorDrawable.new
+List<BluetoothLeDevice>.size
+Activity.getWindow Activity.getWindow
+View.getId
+LayoutInflater.inflate ButterKnife.bind ListView.setAdapter ListView.setOnItemClickListener ListView.setOnItemLongClickListener Snackbar.make View.new Logger.d TextView.setText
+TextView.setText List<BluetoothLeDevice>.size EventBus.getDefault
+List<BluetoothLeDevice>.addAll
+String.new List<BluetoothLeDevice>.size
+EventBus.getDefault
+Snackbar.make View.new
+TextView.setText TextView.setText state.toString TextView.setText EventBus.getDefault list.size
+EventBus.getDefault
+LayoutInflater.inflate ButterKnife.bind ListView.setAdapter ListView.setOnItemClickListener
+Snackbar.make View.new
+ButterKnife.bind Switch.setChecked Switch.setOnCheckedChangeListener CompoundButton.new SeekBar.setOnSeekBarChangeListener SeekBar.new TextView.setText String.valueOf TextView.setText String.valueOf SeekBar.setProgress Math.abs ImageView.setOnClickListener View.new TextView.setText String.valueOf TextView.setText String.valueOf SeekBar.setProgress SeekBar.setProgress SeekBar.setOnSeekBarChangeListener SeekBar.new TextView.setText String.valueOf SeekBar.setOnSeekBarChangeListener SeekBar.new TextView.setText String.valueOf Spinner.setAdapter Spinner.setSelection Spinner.setOnItemSelectedListener
+ImageView.setVisibility ImageView.setVisibility
+Switch.isChecked Switch.isChecked EventBus.getDefault
+EventBus.getDefault ButterKnife.bind FloatingActionButton.setOnClickListener View.new EventBus.getDefault FloatingActionButton.setVisibility ActionBarDrawerToggle.new DrawerLayout.setDrawerListener ActionBarDrawerToggle.syncState NavigationView.setNavigationItemSelectedListener NavigationView.getHeaderView View.findViewById List<Fragment>.add List<Fragment>.add List<Fragment>.add File.new
+EventBus.getDefault
+versionBean.isUpdate AlertDialog.new DialogInterface.new AlertDialog.dismiss versionBean.getInstallUrl DialogInterface.new AlertDialog.dismiss versionBean.getChangeLog AlertDialog.show
+Snackbar.make View.new result.getScanRecord Logger.i result.getLeDevice String.toLowerCase result.getRssi String.equals result.getLeDevice String.toLowerCase result.getLeDevice result.getLeDevice EventBus.getDefault
+EventBus.getDefault
+DrawerLayout.isDrawerOpen DrawerLayout.closeDrawer
+Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem
+MenuItem.getItemId Snackbar.make View.new
+MenuItem.getItemId Uri.parse Uri.parse DrawerLayout.closeDrawer
+List<Fragment>.size ViewPager.new
+EventBus.getDefault FloatingActionButton.setVisibility FloatingActionButton.setVisibility
+DialogInterface.new AlertDialog.dismiss
+DialogInterface.new AlertDialog.dismiss DialogInterface.new AlertDialog.dismiss
+DialogInterface.new DialogInterface.new AlertDialog.dismiss DialogInterface.new AlertDialog.dismiss
+DialogInterface.new AlertDialog.dismiss DialogInterface.new AlertDialog.dismiss
+DialogInterface.new AlertDialog.dismiss DialogInterface.new AlertDialog.dismiss
+LayoutInflater.from DialogInterface.new AlertDialog.dismiss DialogInterface.new AlertDialog.dismiss
+PermissionUtils.hasSelfPermissions MainActivityPermissionsDispatcher.showCheckPermissionStateWithCheck
+MainActivityPermissionsDispatcher.onRequestPermissionsResult
+ButterKnife.bind BluetoothGatt.getServices Service.getCharacteristics characteristics.getUuid Service.getUuid Logger.e TextView.setText TextView.setText TextView.setText String.substring TextView.setText BluetoothGattCharacteristic.getProperties BluetoothGattCharacteristic.getProperties BluetoothGattCharacteristic.getDescriptors Logger.i gattDescriptor.getUuid UUID.toString BluetoothGattCharacteristic.getProperties BluetoothGattCharacteristic.getUuid BluetoothGattCharacteristic.getProperties BluetoothGattCharacteristic.getUuid
+TextView.setOnClickListener TextView.setOnClickListener TextView.setOnClickListener
+View.getId BluetoothGattCharacteristic.getUuid BluetoothGattCharacteristic.getUuid
+EventBus.getDefault
+EventBus.getDefault
+MenuItem.getItemId
+AlertDialog.new DialogInterface.new String.replaceAll String.length BluetoothGattCharacteristic.setValue BluetoothGatt.writeCharacteristic TextView.setText Logger.e
+String.length Integer.valueOf String.substring Integer.byteValue
+StringBuilder.new StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.deleteCharAt StringBuilder.length StringBuilder.toString
+View.setVisibility View.setVisibility View.setVisibility View.setVisibility View.setVisibility View.setVisibility View.setVisibility TextView.setText
+TextView.setVisibility TextView.setEnabled TextView.setEnabled TextView.setEnabled TextView.setVisibility TextView.setEnabled TextView.setEnabled TextView.setEnabled
+BluetoothGattCharacteristic.getValue String.equals TextView.setText String.equals TextView.setText String.equals
+Logger.w BluetoothGatt.setCharacteristicNotification BluetoothGattCharacteristic.getDescriptors descriptor.setValue BluetoothGatt.writeDescriptor
+List<List<BluetoothGattCharacteristic>>.get BluetoothGattCharacteristic.getUuid
+ButterKnife.bind ExpandableListView.setOnChildClickListener BluetoothGattCallback.new EventBus.getDefault EventBus.getDefault EventBus.getDefault EventBus.getDefault EventBus.getDefault Runnable.new Runnable.new gatt.getServices
+Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem Menu.findItem
+MenuItem.getItemId
+ExpandableListView.setAdapter TextView.setText TextView.setText TextView.setText TextView.setText
+gattService.getUuid Map<String,String>.put Map<String,String>.put String.substring Map<String,String>.get List<Map<String,String>>.add gattService.getCharacteristics List<BluetoothGattCharacteristic>.add gattCharacteristic.getUuid gattCharacteristic.getProperties Map<String,String>.put Map<String,String>.put String.substring Map<String,String>.get List<Map<String,String>>.add gattCharacteristic.getDescriptors gattDescriptor.getUuid gattDescriptor.getValue gattDescriptor.getPermissions List<List<BluetoothGattCharacteristic>>.add List<List<Map<String,String>>>.add SimpleExpandableListAdapter.new String.new String.new ExpandableListView.setAdapter
+StringBuilder.new StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.deleteCharAt StringBuilder.length StringBuilder.append StringBuilder.toString
+StringBuilder.new StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append gattService.getUuid StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append gattService.getCharacteristics gattCharacteristic.getUuid StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.toString
+Runnable.new TextView.setText TextView.setTextColor
+LinearLayout.findViewById LinearLayout.findViewById LinearLayout.findViewById TextView.setText TextView.setText TextView.setText
+LinearLayout.findViewById LinearLayout.findViewById LinearLayout.findViewById LinearLayout.findViewById LinearLayout.findViewById LinearLayout.findViewById TextView.setText TextView.setText TextView.setText TextView.setText TextView.setText StringBuilder.new StringBuilder.length StringBuilder.append StringBuilder.append StringBuilder.toString TextView.setText
+LinearLayout.findViewById TextView.setText
+LinearLayout.findViewById LinearLayout.findViewById LinearLayout.findViewById LinearLayout.findViewById LinearLayout.findViewById LinearLayout.findViewById TextView.setText TextView.setText TextView.setText TextView.setText TextView.setText TextView.setText
+LinearLayout.findViewById LinearLayout.findViewById LinearLayout.findViewById LinearLayout.findViewById LinearLayout.findViewById TextView.setText TextView.setText TextView.setText TextView.setText TextView.setText
+LinearLayout.findViewById TextView.setText
+String.valueOf String.valueOf
+ButterKnife.bind ListView.setEmptyView
+MenuItem.getItemId
+Collection<AdRecord>.size ListView.setAdapter
+EventBus.getDefault
+EventBus.getDefault
+TextView.setText TextView.setText TextView.setText TextView.setText String.length TextView.setText TextView.setText TextView.setText TextView.setText
+LayoutInflater.inflate ButterKnife.bind ListView.setEmptyView ListView.setOnItemClickListener ListView.setAdapter
+TextView.setText String.valueOf
+FloatingActionButton.getVisibility FloatingActionButton.getVisibility
+ViewCompat.animate FloatingActionButton.getHeight View.setVisibility
+FloatingActionButton.setVisibility ViewCompat.animate
+View.getLayoutParams
+ActionBar.setDisplayHomeAsUpEnabled AppBarLayout.setElevation
+MenuItem.getItemId
+AppBarLayout.setAlpha
+AppBarLayout.animate AppBarLayout.getHeight
+Toolbar.getBackground ColorDrawable.setColor
+Context.getResources Context.getPackageName
+Activity.getSystemService
+BluetoothAdapter.isEnabled Activity.startActivityForResult BluetoothAdapter.isEnabled Activity.startActivityForResult
+Context.getSystemService
+Context.getPackageManager Activity.getPackageManager
+BluetoothAdapter.isEnabled
+String.charAt StringBuilder.append String.charAt StringBuilder.append StringBuilder.toString StringBuilder.new StringBuilder.append StringBuilder.append StringBuilder.append String.charAt StringBuilder.append String.charAt StringBuilder.append StringBuilder.toString StringBuilder.new StringBuilder.append StringBuilder.append StringBuilder.append
+StringBuilder.new StringBuilder.append String.charAt StringBuilder.append String.charAt StringBuilder.toString
+ByteBuffer.wrap ByteBuffer.wrap
+ByteBuffer.wrap ByteBuffer.wrap
+byte[].size StringBuilder.new StringBuilder.append byte[].size StringBuilder.append byte[].keyAt byte[].valueAt StringBuilder.append StringBuilder.toString Map<T,byte[]>.isEmpty StringBuilder.new StringBuilder.append Map<T,byte[]>.entrySet Iterator<Map.Entry<T,byte[]>>.hasNext Iterator<Map.Entry<T,byte[]>>.next Map.Entry<T,byte[]>.getKey StringBuilder.append Arrays.toString Map<T,byte[]>.get Iterator<Map.Entry<T,byte[]>>.hasNext StringBuilder.append StringBuilder.append StringBuilder.toString byte[].size StringBuilder.new StringBuilder.append byte[].size StringBuilder.append byte[].keyAt byte[].valueAt StringBuilder.append StringBuilder.toString Map<T,byte[]>.isEmpty StringBuilder.new StringBuilder.append Map<T,byte[]>.entrySet Iterator<Map.Entry<T,byte[]>>.hasNext Iterator<Map.Entry<T,byte[]>>.next Map.Entry<T,byte[]>.getKey StringBuilder.append Arrays.toString Map<T,byte[]>.get Iterator<Map.Entry<T,byte[]>>.hasNext StringBuilder.append StringBuilder.append StringBuilder.toString
+String.length Integer.decode String.substring String.substring
+Integer.replace Integer.trim
+CharSequence.toString String.equals String.length String.charAt String.length String.length String.charAt String.substring String.substring String.substring String.length e.toString
+StringBuilder.new StringBuilder.append Editable.toString StringBuilder.length StringBuilder.insert StringBuilder.toString e.toString
+Context.getResources
+Context.getResources
+Context.getResources
+Context.getResources
+DisplayMetrics.new Activity.getWindowManager
+DisplayMetrics.new Activity.getWindowManager
+DisplayMetrics.new Activity.getWindowManager
+DisplayMetrics.new Activity.getWindowManager
+File.exists File.isFile File.delete File.exists File.exists FileInputStream.new FileInputStream.available FileInputStream.close URL.new URL.openConnection HttpURLConnection.setRequestProperty HttpURLConnection.setRequestMethod HttpURLConnection.setReadTimeout HttpURLConnection.setConnectTimeout HttpURLConnection.getResponseCode HttpURLConnection.getInputStream HttpURLConnection.getContentLength HttpURLConnection.getContentEncoding String.equalsIgnoreCase FileOutputStream.new InputStream.read FileOutputStream.write FileOutputStream.flush FileOutputStream.close InputStream.close e.printStackTrace HttpURLConnection.disconnect
+Environment.getExternalStorageDirectory
+Context.getFilesDir
+Context.getCacheDir
+Context.getExternalCacheDir
+Context.getExternalFilesDir
+Environment.getExternalStorageState
+Environment.getExternalStoragePublicDirectory File.mkdirs
+Environment.getExternalStoragePublicDirectory File.exists File.mkdirs File.getAbsolutePath
+File.exists File.getParentFile File.exists File.mkdirs File.exists File.createNewFile File.new
+File.new File.exists File.isFile File.delete File.isDirectory File.listFiles File.delete File.exists File.isDirectory File.listFiles File.isDirectory File.delete File.listFiles File.delete
+File.new TextUtils.isEmpty File.exists FileOutputStream.new FileOutputStream.write String.getBytes FileOutputStream.flush FileOutputStream.close
+TextUtils.isEmpty File.new File.getName
+File.exists FileReader.new LineNumberReader.new LineNumberReader.readLine LineNumberReader.readLine List<String>.add FileReader.close e.printStackTrace FileReader.new BufferedReader.new BufferedReader.readLine e.printStackTrace Reader.close BufferedReader.close e.printStackTrace String.toString
+File.exists File.mkdirs
+File.new File.exists
+FileOutputStream.new InputStream.read OutputStream.write OutputStream.flush e.printStackTrace OutputStream.close e.printStackTrace
+File.exists File.mkdirs File.new
+File.new File.exists
+File.new File.createNewFile e.printStackTrace
+File.new File.exists File.mkdirs
+File.getName String.lastIndexOf String.substring String.length Boolean.equals
+File.new File.exists File.mkdirs
+File.exists File.length FileInputStream.new FileOutputStream.new FileInputStream.read FileOutputStream.write FileInputStream.close FileOutputStream.close File.new
+StringBuilder.new StringBuilder.append Environment.getExternalStorageDirectory StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.toString Pattern.compile
+Pattern.matcher String.length String.substring String.toString
+Uri.getScheme Context.getContentResolver Cursor.moveToFirst Cursor.getColumnIndex Cursor.getString Cursor.close Uri.getScheme Uri.toString Uri.toString URLDecoder.decode e.printStackTrace
+File.exists File.listFiles
+String.equals e.printStackTrace String.format JSONObject.new JSONObject.getString JSONObject.getString Integer.parseInt JSONObject.getString JSONObject.getString JSONObject.getString JSONObject.getString JSONObject.getLong JSONObject.getJSONObject JSONObject.getInt Context.getPackageManager PackageManager.getPackageInfo Context.getPackageName
+URL.new URL.openConnection HttpURLConnection.setRequestMethod HttpURLConnection.setReadTimeout HttpURLConnection.setConnectTimeout HttpURLConnection.setDoOutput HttpURLConnection.getOutputStream OutputStream.write String.getBytes OutputStream.flush OutputStream.close HttpURLConnection.getResponseCode HttpURLConnection.getInputStream e.printStackTrace HttpURLConnection.disconnect
+URL.new URL.openConnection HttpURLConnection.setRequestMethod HttpURLConnection.setReadTimeout HttpURLConnection.setConnectTimeout HttpURLConnection.getResponseCode HttpURLConnection.getInputStream e.printStackTrace HttpURLConnection.disconnect
+ByteArrayOutputStream.new InputStream.read ByteArrayOutputStream.write InputStream.close ByteArrayOutputStream.toString ByteArrayOutputStream.close
+Context.getPackageManager PackageManager.checkPermission Context.getPackageName
+Context.getPackageManager PackageManager.getPackageInfo Context.getPackageName e.printStackTrace
+Context.getPackageManager PackageManager.queryIntentActivities List<ResolveInfo>.size
+Context.getPackageManager PackageManager.getPackageInfo Context.getPackageName e.printStackTrace Context.startActivity e.printStackTrace
+Uri.parse Context.getPackageName Context.startActivity
+Context.startActivityForResult
+Context.getSystemService LocationManager.isProviderEnabled
+Context.getSystemService LocationManager.isProviderEnabled
+String.valueOf
+StringBuffer.new StringBuffer.append StringBuffer.toString
+String.new MessageDigest.getInstance MessageDigest.digest String.getBytes ex.printStackTrace
+Context.getSharedPreferences SharedPreferences.edit SharedPreferences.Editor.putString SharedPreferences.Editor.apply SharedPreferences.Editor.commit e.printStackTrace
+Context.getSharedPreferences SharedPreferences.getString e.printStackTrace
+Context.getSharedPreferences SharedPreferences.edit SharedPreferences.Editor.putInt SharedPreferences.Editor.apply SharedPreferences.Editor.commit e.printStackTrace
+Context.getSharedPreferences SharedPreferences.getInt e.printStackTrace
+Context.getSharedPreferences SharedPreferences.edit SharedPreferences.Editor.putLong SharedPreferences.Editor.apply SharedPreferences.Editor.commit e.printStackTrace
+Context.getSharedPreferences SharedPreferences.getLong e.printStackTrace
+Context.getSharedPreferences SharedPreferences.edit SharedPreferences.Editor.putFloat SharedPreferences.Editor.apply SharedPreferences.Editor.commit e.printStackTrace
+Context.getSharedPreferences SharedPreferences.getFloat e.printStackTrace
+Context.getSharedPreferences SharedPreferences.edit SharedPreferences.Editor.putBoolean SharedPreferences.Editor.apply SharedPreferences.Editor.commit e.printStackTrace
+Context.getSharedPreferences SharedPreferences.getBoolean e.printStackTrace
+String.trim
+String.length String.length
+Integer.parseInt Object.toString
+long.parseLong
+Boolean.parseBoolean
+Integer.parseInt String.toString
+StringBuilder.new StringBuilder.append StringBuilder.append Integer.toHexString StringBuilder.toString Locale.getDefault
+String.length Character.digit String.charAt Character.digit String.charAt
+String.charAt Character.isLetter Character.isUpperCase StringBuilder.new String.length Character.toUpperCase String.substring
+String.getBytes String.length URLEncoder.encode RuntimeException.new String.getBytes String.length URLEncoder.encode
+Pattern.compile Pattern.matcher Matcher.matches Matcher.group
+char[].replaceAll
+String.toCharArray String.new
+String.toCharArray String.new
+Pattern.compile Pattern.matcher Matcher.replaceAll
+String.length String.charAt String.charAt
+CharSequence.length String.length CharSequence.equals CharSequence.charAt String.charAt
+String.equalsIgnoreCase String.trim String.startsWith String.substring String.length String.trim
+SimpleDateFormat.format Date.new
+MeasureSpec.makeMeasureSpec
+AlertDialog.new DialogInterface.new DialogInterface.new AlertDialog.dismiss Context.getString
+AlertDialog.new DialogInterface.new PermissionRequest.proceed DialogInterface.new PermissionRequest.cancel
+AlertDialog.new AlertDialog.new AlertDialog.new
+AlertDialog.new
+e.printStackTrace
+Logger.uprootAll Logger.plantDefaultDebugTree
+Context.getPackageManager Context.getSystemService
+Thread.currentThread Looper.getMainLooper Handler.post Runnable.run
+BluetoothGattCallback.new
+Logger.i BluetoothGattCharacteristic.getUuid
+Logger.i
+Logger.i Logger.i Runnable.new BluetoothGatt.discoverServices Logger.e Thread.currentThread Runnable.new Runnable.new
+Logger.i
+Logger.i
+Logger.i Runnable.new Logger.e Runnable.new
+Logger.e BluetoothGatt.getDevice
+BluetoothGattDescriptor.setValue data.getDescriptorValue Logger.e data.getDescriptorUUID BluetoothGattCharacteristic.getProperties BluetoothGatt.setCharacteristicNotification BluetoothGattCharacteristic.getDescriptor data.getDescriptorUUID BluetoothGattDescriptor.setValue Logger.e data.getDescriptorUUID Logger.e BluetoothGattCharacteristic.getUuid BluetoothGattCharacteristic.getProperties Logger.e data.getCharacteristicUUID Logger.e Logger.e Logger.e Logger.e BluetoothGatt.getService UUID.fromString BluetoothGattService.getCharacteristic data.getCharacteristicUUID data.getOperatorType BluetoothGattCharacteristic.getProperties BluetoothGattCharacteristic.setValue data.getCharacteristicValue Logger.e BluetoothGattCharacteristic.getUuid BluetoothGattCharacteristic.getProperties BluetoothGattCharacteristic.getProperties Logger.e BluetoothGattCharacteristic.getUuid BluetoothGattCharacteristic.getProperties BluetoothGattCharacteristic.getDescriptor data.getDescriptorUUID Logger.e data.getDescriptorUUID BluetoothGattCharacteristic.getDescriptor data.getDescriptorUUID
+BluetoothGattCharacteristic.getClass Field.setAccessible Field.set e.printStackTrace e.printStackTrace
+String.toLowerCase
+String.length List<V>.size
+Context.getSystemService
+Map<String,BluetoothGatt>.clear
+List<ConnectStateListener>.add
+List<ConnectStateListener>.remove
+Queue<BluetoothSubScribeData>.add
+Queue<BluetoothSubScribeData>.clear
+Map<String,BluetoothGatt>.containsKey Map<String,BluetoothGatt>.get
+Logger.e BluetoothGatt.getDevice BluetoothGatt.getDevice BluetoothGatt.getDevice Runnable.new BluetoothGatt.getDevice
+BluetoothGatt.getDevice
+Logger.e BluetoothGatt.getDevice BluetoothGatt.getDevice BluetoothGatt.getDevice Runnable.new BluetoothGatt.getDevice
+Map<String,BluetoothGatt>.size
+Logger.w Logger.e Map<String,BluetoothGatt>.containsKey Map<String,BluetoothGatt>.get Logger.i Thread.currentThread Looper.getMainLooper BluetoothGatt.connect BluetoothAdapter.getRemoteDevice BluetoothDevice.connectGatt Logger.d Thread.currentThread Looper.getMainLooper Map<String,BluetoothGatt>.put Logger.e Thread.currentThread Looper.getMainLooper Logger.e
+Map<String,BluetoothGatt>.containsKey Logger.w Map<String,BluetoothGatt>.get BluetoothGatt.close Map<String,BluetoothGatt>.remove
+Map<String,BluetoothGatt>.keySet
+Map<String,BluetoothGatt>.containsKey Logger.w Map<String,BluetoothGatt>.get BluetoothGatt.disconnect
+Logger.i SystemClock.elapsedRealtime Logger.i Runnable.new Map<String,BluetoothGatt>.containsKey Map<String,BluetoothGatt>.size Map<String,BluetoothGatt>.size Logger.d Runnable.new Logger.w Logger.w Logger.w
+BluetoothDevice.getAddress BluetoothDevice.getAddress Map<String,BluetoothGatt>.keySet Map<String,BluetoothGatt>.get ads.equals
+Runnable.new
+Logger.w
+Queue<SimpleEntity>.clear
+Queue<SimpleEntity>.add Queue<SimpleEntity>.add
+Queue<SimpleEntity>.isEmpty Queue<SimpleEntity>.poll
+Logger.e BluetoothGattCharacteristic.getUuid BluetoothGatt.writeCharacteristic BluetoothGatt.readCharacteristic BluetoothGattDescriptor.getUuid BluetoothGatt.writeDescriptor BluetoothGatt.readDescriptor Logger.d Logger.d
+UUID.fromString
+List<ConnectStateListener>.add
+List<ConnectStateListener>.remove
+BluetoothGatt.getDevice
+Logger.e BluetoothGatt.getDevice BluetoothGatt.getDevice
+BluetoothGatt.getDevice
+BluetoothGatt.getDevice
+Queue<String>.size Logger.e String.length Map<String,ConnectState>.containsKey Map<String,ConnectState>.get Map<String,ConnectState>.get Map<String,ReconnectParamsBean>.containsKey Map<String,ReconnectParamsBean>.put Map<String,ReconnectParamsBean>.get Logger.i Logger.e Logger.e
+Queue<String>.peek Logger.i
+Map<String,ConnectState>.containsKey Map<String,ConnectState>.put Queue<String>.peek String.equals Queue<String>.poll Map<String,ReconnectParamsBean>.remove Queue<String>.peek String.equals Queue<String>.poll Runnable.new
+Logger.w Logger.d
+Map<String,ConnectState>.clear Map<String,BluetoothGatt>.clear Map<String,ReconnectParamsBean>.clear Queue<String>.clear
+Map<String,ConnectState>.size
+Map<String,ConnectState>.containsKey Map<String,ConnectState>.size Queue<String>.poll Queue<String>.add Map<String,ConnectState>.put
+Map<String,ConnectState>.remove Queue<String>.remove Map<String,ReconnectParamsBean>.remove Map<String,BluetoothGatt>.containsKey
+Map<String,ConnectState>.size Map<String,ConnectState>.keySet List<String>.add
+Map<String,ConnectState>.size Map<String,ConnectState>.keySet
+Map<String,ConnectState>.size Map<String,ConnectState>.keySet Map<String,ConnectState>.get List<String>.add
+Map<String,ConnectState>.containsKey
+Map<String,ConnectState>.get
+Map<String,ConnectState>.size Map<String,ConnectState>.keySet Map<String,ConnectState>.get List<String>.add
+Map<String,ConnectState>.values
+Map<String,ConnectState>.values
+Map<String,ConnectState>.values
+Map<String,BluetoothGatt>.containsKey Map<String,BluetoothGatt>.get
+Queue<String>.size Map<String,ConnectState>.keySet Map<String,ConnectState>.get Map<String,ReconnectParamsBean>.containsKey Map<String,ReconnectParamsBean>.put key.equals Map<String,ReconnectParamsBean>.get Logger.d SystemClock.elapsedRealtime
+Map<String,ReconnectParamsBean>.size SystemClock.elapsedRealtime Map<String,ReconnectParamsBean>.keySet Map<String,ReconnectParamsBean>.get SystemClock.elapsedRealtime Logger.d Logger.d SystemClock.elapsedRealtime SystemClock.elapsedRealtime Runnable.new
+Map<String,ConnectState>.containsKey Map<String,ReconnectParamsBean>.get Map<String,ReconnectParamsBean>.put Map<String,ConnectState>.get Logger.d Runnable.new Logger.w Logger.w Logger.w Map<String,ReconnectParamsBean>.remove
+Logger.e Logger.e Logger.w Map<String,BluetoothGatt>.containsKey Map<String,BluetoothGatt>.get Logger.i Thread.currentThread Looper.getMainLooper BluetoothGatt.connect BluetoothAdapter.getRemoteDevice BluetoothDevice.connectGatt Logger.i Thread.currentThread Looper.getMainLooper Map<String,BluetoothGatt>.put Logger.e Thread.currentThread Looper.getMainLooper Logger.e
+Map<String,BluetoothGatt>.containsKey Logger.w Map<String,BluetoothGatt>.get BluetoothGatt.close Map<String,BluetoothGatt>.remove
+Map<String,BluetoothGatt>.keySet
+Map<String,BluetoothGatt>.containsKey Logger.w Map<String,BluetoothGatt>.get BluetoothGatt.disconnect
+String.length
+Context.getSystemService
+device.getAddress List<BluetoothDevice>.add Logger.i device.getAddress
+Queue<BluetoothSubScribeData>.add
+Queue<BluetoothSubScribeData>.clear
+SystemClock.elapsedRealtime
+SystemClock.elapsedRealtime
+Math.pow Math.pow SystemClock.elapsedRealtime Logger.d SystemClock.elapsedRealtime
+SystemClock.elapsedRealtime
+SystemClock.elapsedRealtime
+Bundle.getInt Bundle.getByteArray Parcel.readBundle Bundle.getInt
+Arrays.toString
+Bundle.new Bundle.putInt Bundle.putInt Bundle.putByteArray Parcel.writeBundle
+Parcel.readBundle Bundle.getSparseParcelableArray Bundle.getString Bundle.getString SparseArray<AdRecord>.get SparseArray<AdRecord>.get
+SparseArray<AdRecord>.get
+SparseArray<AdRecord>.get
+Collections.unmodifiableCollection
+SparseArray<AdRecord>.indexOfKey
+Bundle.new Bundle.putString Bundle.putString Bundle.putSparseParcelableArray Parcel.writeBundle
+SparseArray<C>.size SparseArray<C>.size Collection<C>.add SparseArray<C>.valueAt
+String.new
+Arrays.copyOfRange
+Arrays.copyOfRange List<AdRecord>.add Collections.unmodifiableList
+Arrays.copyOfRange List<AdRecord>.put Collections.unmodifiableMap
+Arrays.copyOfRange List<AdRecord>.put
+Arrays.toString
+BluetoothDevice.getRssi BluetoothDevice.getTimestamp BluetoothDevice.getDevice BluetoothDevice.getFirstRssi BluetoothDevice.getFirstTimestamp BluetoothDevice.getScanRecord BluetoothDevice.getRssiLog BluetoothDevice.getScanRecord Parcel.readBundle Bundle.getInt Bundle.getLong Bundle.getParcelable Bundle.getInt Bundle.getLong Bundle.getParcelable Bundle.getSerializable Bundle.getByteArray
+Map<Long,Integer>.clear Map<Long,Integer>.put
+Object.getClass BluetoothDevice.equals Map<Long,Integer>.equals Arrays.equals
+BluetoothDevice.getAddress
+BluetoothDevice.getBondState
+BluetoothDevice.getBluetoothClass
+BluetoothService.values BluetoothDevice.getBluetoothClass Service.getAndroidConstant Set<BluetoothService>.add Collections.unmodifiableSet
+BluetoothDevice.getBluetoothClass
+BluetoothDevice.getName
+Map<Long,Integer>.keySet Map<Long,Integer>.get
+BluetoothDevice.hashCode Map<Long,Integer>.hashCode Arrays.hashCode
+Bundle.new Bundle.putByteArray Bundle.putInt Bundle.putInt Bundle.putLong Bundle.putLong Bundle.putParcelable Bundle.putParcelable Bundle.putSerializable Parcel.writeBundle
+Arrays.copyOfRange Arrays.copyOfRange Arrays.copyOfRange Arrays.copyOfRange Arrays.copyOfRange
+Math.pow Math.pow
+StringBuilder.new StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append StringBuilder.append Integer.toHexString StringBuilder.toString
+SparseArray<String>.get
+SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put SparseArray<String>.put
+Map<String,String>.get String.toLowerCase
+Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put Map<String,String>.put
+Logger.w Context.getApplicationContext
+Logger.d Logger.d
+Logger.d Logger.d
+SimpleArrayMap<ScanCallbackCompat,API21ScanCallback>.get BluetoothAdapter.getBluetoothLeScanner
+List<ScanFilterCompat>.size List<ScanFilter>.add filter.toApi21 BluetoothAdapter.getBluetoothLeScanner BluetoothAdapter.getBluetoothLeScanner
+SimpleArrayMap<ScanCallbackCompat,API21ScanCallback>.remove BluetoothAdapter.getBluetoothLeScanner
+SimpleArrayMap<ScanCallbackCompat,API21ScanCallback>.get SimpleArrayMap<ScanCallbackCompat,API21ScanCallback>.put
+BluetoothAdapter.startLeScan BluetoothAdapter.startLeScan
+SimpleArrayMap<ScanCallbackCompat,API21ScanCallback>.remove BluetoothAdapter.stopLeScan
+SimpleArrayMap<ScanCallbackCompat,API21ScanCallback>.get SimpleArrayMap<ScanCallbackCompat,API21ScanCallback>.put
+WeakReference<ScanCallbackCompat>.get System.currentTimeMillis filter.matches
+WeakReference<ScanCallbackCompat>.get
+WeakReference<ScanCallbackCompat>.get List<ScanResult>.size List<ScanResultCompat>.add
+WeakReference<ScanCallbackCompat>.get
+UUID.equals
+UUID.equals
+UUID.equals
+UUID.equals
+UUID.equals
+UUID.equals
+UUID.equals
+UUID.equals
+UUID.equals
+UUID.equals
+UUID.equals
+UUID.equals
+UUID.equals
+UUID.equals
+element.equals
+Arrays.asList HashSet<ParcelUuid>.contains
+Arrays.asList HashSet<ParcelUuid>.contains
+ParcelUuid.getUuid UUID.getMostSignificantBits
+ByteBuffer.wrap ByteBuffer.getLong ByteBuffer.getLong ParcelUuid.new UUID.new ParcelUuid.getUuid ParcelUuid.getUuid ParcelUuid.new UUID.new
+ParcelUuid.getUuid UUID.getLeastSignificantBits ParcelUuid.getUuid UUID.getMostSignificantBits
+ParcelUuid.getUuid UUID.getLeastSignificantBits ParcelUuid.getUuid UUID.getMostSignificantBits
+Object.toString
+Arrays.hashCode
+Object.equals
+Arrays.deepEquals Arrays.equals Arrays.equals Arrays.equals Arrays.equals Arrays.equals Arrays.equals Arrays.equals Arrays.equals Object.equals
+ScanFilter.new ScanFilter.Builder.setDeviceName ScanFilter.Builder.setServiceUuid ScanFilter.Builder.setDeviceAddress ScanFilter.Builder.setServiceData ScanFilter.Builder.setManufacturerData ScanFilter.Builder.build
+Parcel.writeInt Parcel.writeString Parcel.writeInt Parcel.writeString Parcel.writeInt Parcel.writeParcelable Parcel.writeInt Parcel.writeParcelable Parcel.writeInt Parcel.writeParcelable Parcel.writeInt Parcel.writeInt Parcel.writeByteArray Parcel.writeInt Parcel.writeInt Parcel.writeByteArray Parcel.writeInt Parcel.writeInt Parcel.writeInt Parcel.writeByteArray Parcel.writeInt Parcel.writeInt Parcel.writeByteArray
+Parcel.readInt ScanFilter.Builder.setDeviceName Parcel.readString Parcel.readInt ScanFilter.Builder.setDeviceAddress Parcel.readString Parcel.readInt Parcel.readParcelable ScanFilter.Builder.setServiceUuid Parcel.readInt Parcel.readParcelable ScanFilter.Builder.setServiceUuid Parcel.readInt Parcel.readParcelable Parcel.readInt Parcel.readInt Parcel.readByteArray Parcel.readInt ScanFilter.Builder.setServiceData Parcel.readInt Parcel.readByteArray ScanFilter.Builder.setServiceData Parcel.readInt Parcel.readInt Parcel.readInt Parcel.readByteArray Parcel.readInt ScanFilter.Builder.setManufacturerData Parcel.readInt Parcel.readByteArray ScanFilter.Builder.setManufacturerData ScanFilter.Builder.build
+String.equals BluetoothDevice.getAddress String.equals
+ParcelUuid.getUuid ParcelUuid.getUuid ParcelUuid.getUuid
+UUID.getMostSignificantBits UUID.getMostSignificantBits UUID.getMostSignificantBits ParcelUuid.equals ParcelUuid.getLeastSignificantBits UUID.getLeastSignificantBits UUID.getLeastSignificantBits UUID.getLeastSignificantBits ParcelUuid.getMostSignificantBits
+Arrays.toString Arrays.toString Arrays.toString Arrays.toString
+Object.getClass
+BluetoothAdapter.checkBluetoothAddress
+SparseArray<byte[]>.get
+Map<ParcelUuid,byte[]>.get
+ScanRecord.getServiceUuids ScanRecord.getManufacturerSpecificData ScanRecord.getServiceData ScanRecord.getDeviceName ScanRecord.getAdvertiseFlags ScanRecord.getTxPowerLevel ScanRecord.getBytes
+String.new Map<ParcelUuid,byte[]>.put SparseArray<byte[]>.put List<ParcelUuid>.isEmpty Arrays.toString
+SparseArray<byte[]>.size StringBuilder.new StringBuilder.append SparseArray<byte[]>.size StringBuilder.append SparseArray<byte[]>.keyAt Arrays.toString SparseArray<byte[]>.valueAt StringBuilder.append StringBuilder.toString Map<T,byte[]>.isEmpty StringBuilder.new StringBuilder.append Map<T,byte[]>.entrySet Iterator<Map.Entry<T,byte[]>>.hasNext Iterator<Map.Entry<T,byte[]>>.next Map.Entry<T,byte[]>.getKey StringBuilder.append Arrays.toString Map<T,byte[]>.get Iterator<Map.Entry<T,byte[]>>.hasNext StringBuilder.append StringBuilder.append StringBuilder.toString
+List<ParcelUuid>.add
+System.arraycopy
+ScanResult.getDevice ScanResult.getRssi ScanResult.getScanRecord System.currentTimeMillis ScanResult.getScanRecord ScanResult.getRssi System.currentTimeMillis
+Parcel.writeInt Parcel.writeInt Parcel.writeInt Parcel.writeByteArray Parcel.writeInt Parcel.writeInt Parcel.writeLong
+Parcel.readInt Parcel.readInt Parcel.createByteArray Parcel.readInt Parcel.readLong
+Object.getClass
+Parcel.readInt Parcel.readInt Parcel.readLong
+ScanSettings.new
+Parcel.writeInt Parcel.writeInt Parcel.writeLong
+Handler.new Looper.getMainLooper
+Logger.d
+Thread.currentThread Looper.getMainLooper Handler.post Runnable.run
+Logger.w
+Runnable.new Runnable.new Runnable.new
+List<ScanFilterCompat>.add
+Logger.w Logger.d SystemClock.elapsedRealtime Logger.d Logger.d Logger.d Logger.d
+Logger.e Logger.i Logger.d Logger.d Logger.e Logger.i Logger.e e.printStackTrace Logger.e e.toString Logger.d Logger.d SystemClock.elapsedRealtime Logger.d
+SystemClock.elapsedRealtime Logger.d Handler.postDelayed Runnable.new Logger.d
+SystemClock.elapsedRealtime Logger.d Logger.w e.toString Logger.d SystemClock.elapsedRealtime
+SystemClock.elapsedRealtime Logger.d Handler.postDelayed Runnable.new Logger.d
+Logger.d Logger.d
+Context.getSystemService LocationManager.isProviderEnabled
+ContextCompat.checkSelfPermission
+Activity.startActivityForResult
+InstrumentationRegistry.getTargetContext Context.getPackageName
+SimpleDateFormat.new Locale.getDefault
+Retrofit.new GsonConverterFactory.create
+ConnectivityManager.getActiveNetworkInfo NetworkInfo.isConnectedOrConnecting AlertDialog.new TextView.setText
+LocationManager.isProviderEnabled AlertDialog.Builder.setMessage DialogInterface.new AlertDialog.Builder.create AlertDialog.show AlertDialog.Builder.setMessage DialogInterface.new AlertDialog.Builder.create AlertDialog.show ActivityCompat.requestPermissions String.new
+AlertDialog.Builder.setMessage DialogInterface.new AlertDialog.Builder.create AlertDialog.show
+LocationListener.new Location.getLatitude Location.getLongitude AlertDialog.Builder.setMessage DialogInterface.new AlertDialog.Builder.create AlertDialog.show ContextCompat.checkSelfPermission LocationManager.getLastKnownLocation LocationManager.requestLocationUpdates Location.getLatitude Location.getLongitude Geocoder.new Locale.getDefault Geocoder.getFromLocation StringBuilder.new List<Address>.size List<Address>.get Address.getMaxAddressLineIndex Address.getAddressLine StringBuilder.append Address.getSubLocality StringBuilder.append Address.getLocality TextView.setText e.getMessage
+AlertDialog.new Calendar.getInstance TextView.setText Calendar.getTime
+ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ProgressBar.setVisibility response.isSuccessful JSONArray.new response.body response.body TextView.setText List<Weather>.get TextView.setText response.body TextView.setText response.body TextView.setText response.body TextView.setText response.body List<Weather>.get ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource ImageView.setImageResource
+TextView.setVisibility TextView.setVisibility TextView.setVisibility TextView.setVisibility TextView.setVisibility TextView.setVisibility TextView.setVisibility ImageView.setVisibility
+BluetoothAdapter.getDefaultAdapter FragmentActivity.finish
+BluetoothAdapter.isEnabled
+LayoutInflater.inflate
+View.findViewById View.findViewById View.findViewById
+ListView.setAdapter Button.setOnClickListener View.new View.findViewById TextView.getText StringBuffer.new
+BluetoothAdapter.getScanMode
+String.length String.getBytes StringBuffer.setLength TextView.new
+KeyEvent.getAction View.getText
+FragmentActivity.getActionBar ActionBar.setSubtitle FragmentActivity.getActionBar ActionBar.setSubtitle Handler.new
+ArrayAdapter<String>.clear String.new ArrayAdapter<String>.add String.new ArrayAdapter<String>.add Message.getData Message.getData
+BluetoothAdapter.getRemoteDevice
+LayoutInflater.inflate
+MenuItem.getItemId
+BluetoothAdapter.getDefaultAdapter
+Handler.obtainMessage
+Handler.obtainMessage Bundle.new Bundle.putString BluetoothDevice.getName Message.setData Handler.sendMessage
+Handler.obtainMessage Bundle.new Bundle.putString Message.setData Handler.sendMessage
+Handler.obtainMessage Bundle.new Bundle.putString Message.setData Handler.sendMessage
+BluetoothAdapter.listenUsingRfcommWithServiceRecord BluetoothAdapter.listenUsingInsecureRfcommWithServiceRecord
+BluetoothServerSocket.accept BluetoothSocket.getRemoteDevice BluetoothSocket.close
+BluetoothServerSocket.close
+BluetoothDevice.createRfcommSocketToServiceRecord BluetoothDevice.createInsecureRfcommSocketToServiceRecord
+BluetoothAdapter.cancelDiscovery BluetoothSocket.connect BluetoothSocket.close
+BluetoothSocket.close
+BluetoothSocket.getInputStream BluetoothSocket.getOutputStream
+InputStream.read Handler.obtainMessage
+OutputStream.write Handler.obtainMessage
+BluetoothSocket.close
+Button.setOnClickListener View.new View.setVisibility ListView.setAdapter ListView.setOnItemClickListener ListView.setAdapter ListView.setOnItemClickListener IntentFilter.new IntentFilter.new BluetoothAdapter.getDefaultAdapter BluetoothAdapter.getBondedDevices Set<BluetoothDevice>.size ArrayAdapter<String>.add BluetoothDevice.getName BluetoothDevice.getAddress ArrayAdapter<String>.add
+BluetoothAdapter.cancelDiscovery
+BluetoothAdapter.isDiscovering BluetoothAdapter.cancelDiscovery BluetoothAdapter.startDiscovery
+BluetoothAdapter.cancelDiscovery String.substring String.length BroadcastReceiver.new
+BluetoothDevice.getBondState ArrayAdapter<String>.add BluetoothDevice.getName BluetoothDevice.getAddress ArrayAdapter<String>.getCount ArrayAdapter<String>.add
+FragmentTransaction.replace FragmentTransaction.commit
+Menu.findItem MenuItem.setVisible MenuItem.setTitle
+MenuItem.getItemId ViewAnimator.setDisplayedChild ViewAnimator.setDisplayedChild
+LogWrapper.new MessageOnlyLogFilter.new LogWrapper.setNext MessageOnlyLogFilter.setNext LogFragment.getLogView
+LogWrapper.new
+FloatingActionButton.setOnClickListener View.new ListView.setAdapter ListView.setAdapter BluetoothAdapter.getDefaultAdapter
+IntentFilter.new IntentFilter.new
+BluetoothAdapter.isEnabled BluetoothAdapter.startDiscovery
+BluetoothAdapter.getBondedDevices Set<BluetoothDevice>.size ArrayAdapter<String>.isEmpty ArrayAdapter<String>.clear ArrayAdapter<String>.add bDevice.getName bDevice.getAddress ArrayAdapter<String>.add BroadcastReceiver.new
+BluetoothDevice.getBondState ArrayAdapter<String>.add BluetoothDevice.getName BluetoothDevice.getAddress ArrayAdapter<String>.getCount ArrayAdapter<String>.add
+BluetoothAdapter.getBondedDevices
+BluetoothAdapter.cancelDiscovery
+BluetoothAdapter.isDiscovering
+BluetoothAdapter.startDiscovery
+BluetoothAdapter.getDefaultAdapter
+BluetoothAdapter.getDefaultAdapter
+BluetoothAdapter.getDefaultAdapter
+BluetoothDevice.getName e.getMessage e.getMessage e.getMessage e.getMessage e.getMessage
+BluetoothDevice.getName
+CharSequence.toString
+BluetoothDevice.getClass Method.invoke e.getMessage
+BluetoothAdapter.cancelDiscovery BluetoothSocket.connect e.getMessage BluetoothSocket.close
+BluetoothSocket.close
+BluetoothSocket.getInputStream BluetoothSocket.getOutputStream
+InputStream.close
+BufferedReader.new BufferedReader.readLine
+OutputStream.write
+BluetoothSocket.close
+TextView.setVisibility TextView.setText StringBuilder.setLength TextView.setText TextView.setText String.new ArrayAdapter<String>.add ArrayAdapter<String>.add StringBuilder.append
+TextView.new
+KeyEvent.getAction TextView.getText
+Bundle.getBoolean ImageButton.setOnClickListener ImageButton.setOnClickListener ImageButton.setOnClickListener ImageButton.setOnClickListener ListView.setAdapter TextView.setText Html.fromHtml TextView.setMovementMethod LinkMovementMethod.getInstance Button.setOnClickListener TextView.getText
+BluetoothAdapter.getDefaultAdapter
+CharSequence.length
+MenuInflater.inflate Menu.findItem
+MenuItem.getItemId StringBuilder.length StringBuilder.toString
+Uri.parse
+ImageButton.setVisibility ImageButton.setVisibility View.setVisibility TextView.setVisibility ListView.setVisibility ImageButton.setVisibility ImageButton.setVisibility View.setVisibility
+ImageButton.setVisibility ImageButton.setVisibility ImageButton.setVisibility ImageButton.setVisibility ImageButton.setVisibility ImageButton.setVisibility
+Bundle.putBoolean
+String.equals
+PreferenceManager.getDefaultSharedPreferences
+String.format
+ListView.setAdapter ListView.setOnItemClickListener ArrayAdapter<MockDeviceEntry>.add ArrayAdapter<MockDeviceEntry>.add Set<BluetoothDevice>.isEmpty ListView.setAdapter ListView.setOnItemClickListener ArrayAdapter<BluetoothDeviceEntry>.add BluetoothDevice.getName BluetoothDevice.getAddress ListView.setAdapter ListView.setOnItemClickListener IntentFilter.new IntentFilter.new Button.setOnClickListener v.setVisibility
+ArrayAdapter<BluetoothDeviceEntry>.clear Set<String>.clear
+ArrayAdapter<T>.getItem
+BroadcastReceiver.new
+BluetoothDevice.getAddress Set<String>.contains Set<String>.add ArrayAdapter<BluetoothDeviceEntry>.add BluetoothDevice.getName Set<String>.isEmpty Button.setVisibility
+Handler.obtainMessage
+Handler.obtainMessage
+Handler.obtainMessage Handler.obtainMessage
+Thread.new
+File.new List<String>.add List<String>.isEmpty File.new List<String>.isEmpty
+Thread.sleep Thread.currentThread
+Thread.new
+Thread.sleep Thread.currentThread
+Collections.emptySet
+AssetManager.open Collections.emptyList Collections.emptyList InputStream.close
+AssetManager.open Collections.emptyList Collections.emptyList InputStream.close
+AssetManager.list String.new
+String.format Context.getString String.format Context.getString StringBuilder.new StringBuilder.append String.new StringBuilder.append StringBuilder.append StringBuilder.toString
+String.format Context.getPackageName
+Context.getPackageName Context.getPackageManager PackageManager.getPackageInfo PackageInfo.new
+SimpleDateFormat.new SimpleDateFormat.format Context.getExternalCacheDir File.new FileOutputStream.new FileOutputStream.write String.getBytes FileOutputStream.close Uri.fromFile
+BufferedReader.new BufferedReader.readLine List<String>.add
+InputStream.read List<byte[]>.add Arrays.copyOf
+StringBuilder.new Integer.toHexString String.length StringBuilder.append StringBuilder.append StringBuilder.substring StringBuilder.length
+LayoutInflater.from
+ArrayList<JobDetails>.size
+ArrayList<JobDetails>.get
+LayoutInflater.inflate View.findViewById View.setTag View.getTag
+LinearLayout.setOnClickListener View.new Bundle.new Bundle.putParcelable LinearLayout.setOnClickListener View.new LinearLayout.setOnClickListener View.new Uri.parse
+MenuItem.getItemId
+TextView.setText TextView.setText TextView.setText TextView.setText TextView.setText
+AsyncHttpResponseHandler.new
+ComponentName.new Context.getPackageName
+Bundle.toString WakefulBroadcastReceiver.completeWakefulIntent GoogleCloudMessaging.getInstance GoogleCloudMessaging.getMessageType Bundle.isEmpty Bundle.toString Bundle.toString SystemClock.elapsedRealtime Thread.sleep SystemClock.elapsedRealtime Bundle.toString
+PendingIntent.getActivity NotificationCompat.Builder.setContentIntent NotificationManager.notify NotificationCompat.Builder.build
+GoogleMap.setMapType e.printStackTrace
+MenuItem.getItemId
+LatLng.new Double.parseDouble Double.parseDouble LatLng.toString GoogleMap.addMarker HashMap<String,String>.put Marker.getId GoogleMap.moveCamera CameraUpdateFactory.newLatLngZoom GoogleMap.animateCamera CameraUpdateFactory.zoomTo GoogleMap.setOnInfoWindowClickListener HashMap<String,String>.get Marker.getId HashMap<String,String>.get Marker.getId
+AsyncHttpResponseHandler.new
+AsyncHttpClient.setTimeout AsyncHttpClient.get
+AsyncHttpClient.setTimeout AsyncHttpClient.post AsyncHttpClient.setTimeout AsyncHttpClient.post
+SQLiteDatabase.execSQL
+SQLiteDatabase.execSQL
+Gson.fromJson
+SQLiteDatabase.insert e.printStackTrace SQLiteDatabase.isOpen SQLiteDatabase.close
+SQLiteDatabase.beginTransaction ContentValues.new ContentValues.put ContentValues.put ContentValues.put ContentValues.put ContentValues.put ContentValues.put ContentValues.put ContentValues.put ContentValues.put SQLiteDatabase.insert SQLiteDatabase.setTransactionSuccessful e.printStackTrace SQLiteDatabase.endTransaction SQLiteDatabase.close
+ContentValues.new ContentValues.put ContentValues.put ContentValues.put ContentValues.put ContentValues.put ContentValues.put ContentValues.put ContentValues.put ContentValues.put
+SQLiteDatabase.query Cursor.getCount Cursor.moveToFirst Cursor.getString Cursor.getString Cursor.getString Cursor.getString Cursor.getString Cursor.getString Cursor.getString Cursor.getString Cursor.getString ArrayList<JobDetails>.add Cursor.moveToNext Cursor.close SQLiteDatabase.isOpen SQLiteDatabase.close
+SQLiteDatabase.query string.toString Cursor.getCount Cursor.moveToFirst Cursor.getString Cursor.getString Cursor.getString Cursor.getString Cursor.getString Cursor.getString Cursor.getString Cursor.getString Cursor.getString Cursor.moveToNext Cursor.close SQLiteDatabase.isOpen SQLiteDatabase.close
+SQLiteDatabase.query string.toString Cursor.getCount Cursor.moveToFirst LatLng.new Double.parseDouble Cursor.getString Cursor.getColumnIndex Double.parseDouble Cursor.getString Cursor.getColumnIndex Cursor.moveToNext Cursor.close SQLiteDatabase.isOpen SQLiteDatabase.close
+SQLiteDatabase.query string.toString Cursor.getCount Cursor.moveToFirst Cursor.getString Cursor.getColumnIndex Cursor.moveToNext Cursor.close SQLiteDatabase.isOpen SQLiteDatabase.close
+ListView.setOnItemClickListener
+GooglePlayServicesUtil.isGooglePlayServicesAvailable GooglePlayServicesUtil.isUserRecoverableError GooglePlayServicesUtil.getErrorDialog
+SharedPreferences.edit SharedPreferences.Editor.putString SharedPreferences.Editor.putInt SharedPreferences.Editor.commit
+SharedPreferences.getString string.isEmpty SharedPreferences.getInt
+GoogleCloudMessaging.getInstance GoogleCloudMessaging.register ex.getMessage TextView.append
+View.getId GoogleCloudMessaging.getInstance TextView.setVisibility string.isEmpty
+Context.getPackageManager Context.getPackageName
+MenuItem.getItemId
+ProgressBar.setVisibility LinearLayout.setVisibility ListView.setAdapter
+AsyncHttpResponseHandler.new
+ProgressBar.setVisibility LinearLayout.setVisibility ListView.setAdapter
+TextView.setOnClickListener
+Map<String,String>.put RequestParams.new RequestParams.put RequestParams.put Random.nextInt Context.getString AsyncHttpResponseHandler.new GCMRegistrar.setRegisteredOnServer Context.getString Thread.sleep Thread.currentThread Context.getString
+URL.new StringBuilder.new RequestParams.entrySet Iterator<Entry<String,String>>.hasNext Iterator<Entry<String,String>>.next StringBuilder.append Entry<String,String>.getKey Entry<String,String>.getValue Iterator<Entry<String,String>>.hasNext StringBuilder.append StringBuilder.toString string.getBytes URL.openConnection HttpURLConnection.setDoOutput HttpURLConnection.setUseCaches HttpURLConnection.setFixedLengthStreamingMode HttpURLConnection.setRequestMethod HttpURLConnection.setRequestProperty HttpURLConnection.getOutputStream OutputStream.write OutputStream.close HttpURLConnection.getResponseCode HttpURLConnection.disconnect
+Context.sendBroadcast
+Bundle.getParcelable GoogleMap.setMapType e.printStackTrace
+MenuItem.getItemId
+LatLng.toString GoogleMap.addMarker Marker.showInfoWindow GoogleMap.moveCamera CameraUpdateFactory.newLatLngZoom GoogleMap.animateCamera CameraUpdateFactory.zoomTo
+AsyncHttpResponseHandler.new
+Button.setOnClickListener View.new Button.setOnClickListener View.new
+AsyncHttpResponseHandler.new
+javax.swing.JList<String>.addListSelectionListener javax.swing.JScrollPane.setViewportView javax.swing.JTextField.addCaretListener javax.swing.JButton.setText javax.swing.JButton.addActionListener javax.swing.JTextArea.setEditable javax.swing.JTextArea.setColumns javax.swing.JTextArea.setRows javax.swing.JTextArea.setAutoscrolls javax.swing.JScrollPane.setViewportView java.awt.Label.setAlignment java.awt.Label.setName java.awt.Label.setText javax.swing.GroupLayout.setHorizontalGroup javax.swing.GroupLayout.createParallelGroup javax.swing.GroupLayout.createSequentialGroup javax.swing.GroupLayout.createParallelGroup javax.swing.GroupLayout.createParallelGroup javax.swing.GroupLayout.createSequentialGroup javax.swing.GroupLayout.setVerticalGroup javax.swing.GroupLayout.createParallelGroup javax.swing.GroupLayout.createSequentialGroup javax.swing.GroupLayout.createParallelGroup javax.swing.GroupLayout.createSequentialGroup javax.swing.GroupLayout.createSequentialGroup javax.swing.GroupLayout.createParallelGroup javax.swing.JList<String>.setModel javax.swing.JList<String>.setSelectionMode
+String.length String.toUpperCase String.substring String.substring
+javax.swing.JTextField.getText javax.swing.JList<String>.setModel
+javax.swing.JTextArea.setText javax.swing.JTextField.getText String.replace Gson.new Gson.fromJson javax.swing.JTextArea.setText javax.swing.JTextArea.setText
+javax.swing.event.CaretEvent.getValueIsAdjusting javax.swing.JList<String>.getSelectedValue javax.swing.JTextField.setText
+String.startsWith javax.swing.DefaultListModel<String>.add javax.swing.DefaultListModel<String>.getSize
+info.getName info.getClassName Gson.new String.new
+Gson.new
+String.new
+URL.new
+URL.openConnection HttpURLConnection.setRequestMethod HttpURLConnection.setRequestProperty Scanner.new HttpURLConnection.getInputStream String.new Scanner.hasNextLine Scanner.nextLine HttpURLConnection.disconnect
+InstrumentationRegistry.getTargetContext Context.getPackageName
+DaggerApplicationComponent.builder
+Observable<T>.subscribeOn Schedulers.newThread AndroidSchedulers.mainThread
+ButterKnife.bind
+ProgressDialog.new ProgressDialog.setProgressStyle ProgressDialog.setCancelable ProgressDialog.setMessage ProgressDialog.show
+ProgressDialog.isShowing ProgressDialog.dismiss
+ActionBar.setDisplayHomeAsUpEnabled ActionBar.setDisplayShowHomeEnabled
+GsonConverterFactory.create
+OkHttpClient.new
+OkHttpClient.new
+RxJavaCallAdapterFactory.create
+Retrofit.new
+Retrofit.create
+List<VenuesResponseVenues>.add
+TextView.setText TextView.setText TextView.setText RecyclerView.setLayoutManager RecyclerView.setAdapter
+ImageButton.setImageResource ImageButton.setImageResource
+Bundle.getBoolean ImageButton.setImageResource ImageButton.setImageResource
+ImageButton.setImageResource ImageButton.setImageResource
+Bundle.putBoolean
+LayoutInflater.from ViewGroup.getContext
+Glide.with
+View.findViewById
+LayoutInflater.inflate
+List<Venue>.get ContextCompat.getColor ContextCompat.getColor ContextCompat.getColor ContextCompat.getColor
+List<Venue>.size List<Venue>.size
+List<Venue>.size List<Venue>.add List<Venue>.size
+List<Venue>.clear
+View.setOnClickListener View.getContext ButterKnife.bind
+TextView.setText TextView.setText String.format
+RecyclerView.setHasFixedSize RecyclerView.setLayoutManager RecyclerView.setAdapter
+DaggerVenueComponent.builder
+List<VenuesResponseVenues>.get V.getLocation V.getLocation V.getLocation List<Venue>.add
+ContextCompat.checkSelfPermission ActivityCompat.checkSelfPermission ActivityCompat.requestPermissions String.new
+Math.toRadians Math.toRadians Math.toRadians Math.toRadians Math.sin Math.sin Math.sin Math.sin Math.cos Math.cos Math.atan2 Math.sqrt Math.sqrt
+Collections.sort o1.isFavourite o1.isFavourite o1.getDistance o2.isFavourite o1.isFavourite o1.getDistance o2.getDistance o1.getDistance o2.getDistance
+ProgressDialog.show ProgressDialog.setCancelable WebView.setScrollBarStyle WebView.loadUrl
+WebView.getSettings WebSettings.setJavaScriptEnabled WebSettings.setJavaScriptCanOpenWindowsAutomatically WebSettings.setAllowFileAccess WebSettings.setSupportMultipleWindows WebSettings.setBuiltInZoomControls WebSettings.setAllowFileAccess WebSettings.setUseWideViewPort WebSettings.setLoadWithOverviewMode WebView.setWebViewClient WebView.setInitialScale
+ProgressDialog.show WebView.loadUrl
+ProgressDialog.dismiss
+Throwable.getMessage
+Context.getSystemService LocationManager.isProviderEnabled LocationManager.isProviderEnabled LocationManager.requestLocationUpdates LocationManager.getLastKnownLocation Location.getLatitude Location.getLongitude ContextCompat.checkSelfPermission ActivityCompat.checkSelfPermission ActivityCompat.requestPermissions String.new LocationManager.requestLocationUpdates LocationManager.getLastKnownLocation Location.getLatitude Location.getLongitude e.printStackTrace
+LocationListener.new
+Location.getLatitude Location.getLongitude
+Location.getLatitude
+Location.getLongitude
+AlertDialog.Builder.setTitle AlertDialog.Builder.setMessage AlertDialog.Builder.setPositiveButton DialogInterface.new Context.startActivity AlertDialog.Builder.setNegativeButton DialogInterface.new dialog.cancel AlertDialog.Builder.show
+BluetoothAdapter.getDefaultAdapter Bundle.getBoolean BluetoothAdapter.isEnabled IntentFilter.new
+BluetoothAdapter.isEnabled BluetoothAdapter.enable
+Bundle.putBoolean
+Bundle.getBoolean
+BluetoothAdapter.isEnabled BluetoothAdapter.disable
+BluetoothAdapter.enable
+BluetoothAdapter.getScanMode
+String.length String.getBytes
+BluetoothAdapter.isEnabled
+BluetoothAdapter.isEnabled
+Bundle.getString BluetoothAdapter.getRemoteDevice BluetoothAdapter.getRemoteDevice
+Handler.new
+String.new Message.getData Message.getData
+mBluetoothConnection.setDuplexConnection
+BluetoothAdapter.getDefaultAdapter
+Handler.obtainMessage
+Handler.obtainMessage Bundle.new Bundle.putString BluetoothDevice.getName Message.setData Handler.sendMessage
+Handler.obtainMessage Bundle.new Bundle.putString Context.getString Message.setData Handler.sendMessage
+Handler.obtainMessage Bundle.new Bundle.putString Context.getString Message.setData Handler.sendMessage
+BluetoothAdapter.listenUsingRfcommWithServiceRecord
+BluetoothServerSocket.accept BluetoothSocket.getRemoteDevice BluetoothSocket.close
+BluetoothServerSocket.close
+BluetoothDevice.createRfcommSocketToServiceRecord
+BluetoothAdapter.cancelDiscovery BluetoothSocket.connect BluetoothSocket.close
+BluetoothSocket.close
+StringBuffer.new BluetoothSocket.getInputStream BluetoothSocket.getOutputStream
+InputStream.read StringBuffer.append String.new StringBuffer.indexOf StringBuffer.indexOf StringBuffer.substring Handler.obtainMessage StringBuffer.delete
+OutputStream.write Handler.obtainMessage
+BluetoothSocket.close
+Button.setOnClickListener View.new View.setVisibility ListView.setAdapter ListView.setOnItemClickListener ListView.setEmptyView ListView.setAdapter ListView.setOnItemClickListener ListView.setEmptyView TextView.setVisibility IntentFilter.new IntentFilter.new BluetoothAdapter.getDefaultAdapter BluetoothAdapter.getBondedDevices Set<BluetoothDevice>.size ArrayAdapter<String>.add BluetoothDevice.getName BluetoothDevice.getAddress
+BluetoothAdapter.cancelDiscovery
+TextView.setText BluetoothAdapter.isDiscovering BluetoothAdapter.cancelDiscovery BluetoothAdapter.startDiscovery
+BluetoothAdapter.cancelDiscovery String.substring String.length Bundle.new Bundle.putString BroadcastReceiver.new
+ListView.setLayoutParams BluetoothDevice.getBondState ArrayAdapter<String>.add BluetoothDevice.getName BluetoothDevice.getAddress TextView.setText
+ListView.setAdapter Button.setOnClickListener TextView.getText StringBuffer.setLength StringBuffer.new
+Menu.findItem
+MenuItem.getItemId
+Color.parseColor Color.parseColor Color.parseColor Color.parseColor
+ArrayAdapter<String>.clear Menu.findItem Menu.findItem Menu.findItem Menu.findItem
+ActionBar.setSubtitle ActionBar.setSubtitle TextView.new
+KeyEvent.getAction TextView.getText StringBuffer.setLength
+ArrayAdapter<String>.add
+ArrayAdapter<String>.add
+HttpPost.new HttpClient.execute HttpResponse.getStatusLine StatusLine.getStatusCode HttpResponse.getEntity HttpEntity.getContent GsonBuilder.new GsonBuilder.setDateFormat GsonBuilder.create Arrays.asList Gson.fromJson InputStream.close StatusLine.getStatusCode
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery List<CityDTO>.add
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery transaction.commit
+Persistence.createTransaction Persistence.getEntityManager Metadata.create EntityManager.persist transaction.commit
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery EntityManager.remove transaction.commit
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery List<PlaceDTO>.add
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery EntityManager.createQuery transaction.commit
+Persistence.createTransaction Persistence.getEntityManager Metadata.create EntityManager.createQuery EntityManager.persist transaction.commit
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery EntityManager.remove transaction.commit
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery List<RatingDTO>.add
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery List<RatingDTO>.add
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery List<RatingDTO>.add
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery EntityManager.createQuery EntityManager.createQuery transaction.commit
+Persistence.createTransaction Persistence.getEntityManager Metadata.create EntityManager.createQuery EntityManager.createQuery EntityManager.persist transaction.commit
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery EntityManager.remove transaction.commit
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery List<UserDTO>.add
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery List<UserDTO>.add
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery e.getLocalizedMessage
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery EntityManager.createQuery transaction.commit
+EntityManager.persist transaction.commit Persistence.createTransaction Persistence.getEntityManager Metadata.create EntityManager.createQuery
+Persistence.createTransaction Persistence.getEntityManager EntityManager.createQuery EntityManager.remove transaction.commit
+List<Double>.size List<Double>.get List<Double>.get Math.sqrt Math.sqrt
+List<Double>.size List<Double>.get List<Double>.get List<Double>.get List<Double>.get Math.sqrt
+List<Double>.size Math.abs List<Double>.get List<Double>.get
+List<Double>.size List<Double>.get List<Double>.get List<Double>.size List<Double>.size List<Double>.size List<Double>.get List<Double>.get List<Double>.get List<Double>.get List<Double>.get List<Double>.get Math.sqrt
+List<PlaceDTO>.size List<PlaceDTO>.get currentUser.getId List<PlaceDTO>.get List<Double>.add List<Double>.add Double.isNaN HashMap<UUID,Double>.put currentUser.getId List<MarkedRatingDTO>.add HashMap<UUID,Double>.get List<MarkedPlaceDTO>.add o2.getMark o1.getMark o2.getMark o1.getMark
+HashMap<UUID,Double>.values List<Double>.sort Collections.reverseOrder List<Double>.size List<Double>.get
+Gson.new Gson.new
+Gson.new Gson.new
+UUID.fromString Double.isNaN Gson.new
+UUID.fromString List<PublicRatingDTO>.add Gson.new
+List<MarkedPlaceDTO>.add Gson.new
+List<RatingDTO>.size
+Model.addAttribute
+PortalSessionProvider.getUserSession LoadContext.new LoadContext.setQueryString Model.addAttribute DataService.loadList
+e.getItem e.getItem e.getItem e.getItem MapViewer.createGeoPoint e.getItem e.getItem MapViewer.getMarkers MapViewer.setCenter MapViewer.createGeoPoint MapViewer.createMarker MapViewer.addMarker MapViewer.setCenter Marker.getPosition event.getMarker GeoPoint.getLatitude GeoPoint.getLongitude e.getValue MapViewer.getMarkers MapViewer.getMarkers
+e.getItem e.getItem e.getItem e.getItem MapViewer.createGeoPoint e.getItem e.getItem MapViewer.getMarkers MapViewer.setCenter MapViewer.createGeoPoint MapViewer.createMarker MapViewer.addMarker MapViewer.setCenter Marker.getPosition event.getMarker GeoPoint.getLatitude GeoPoint.getLongitude e.getValue MapViewer.getMarkers MapViewer.getMarkers
+InstrumentationRegistry.getTargetContext Context.getPackageName
+List<Fragment>.get
+List<Fragment>.size
+List<Fragment>.add List<String>.add
+List<String>.get
+TabLayout.setupWithViewPager
+ViewPager.setAdapter
+AlertDialog.Builder.setTitle DialogInterface.new DialogInterface.new DialogInterface.new AlertDialog.Builder.create
+LayoutInflater.inflate View.findViewById Call<ListToken>.enqueue response.body List<MarkedPlaceDTO>.size List<MarkedPlaceDTO>.get HashMap<String,Object>.put HashMap<String,Object>.put List<HashMap<String,Object>>.add SimpleAdapter.new String.new ListView.setAdapter
+LayoutInflater.inflate View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById Button.setOnClickListener View.new Activity.startActivity Activity.finish Button.setOnClickListener View.new DialogFragment.show TextView.setText
+LayoutInflater.inflate View.findViewById View.findViewById View.findViewById Button.setOnClickListener View.new View.findViewById View.findViewById
+TextUtils.isEmpty TextUtils.isEmpty View.requestFocus
+View.setVisibility View.animate View.setVisibility View.setVisibility View.animate View.setVisibility View.setVisibility View.setVisibility
+String.length
+String.length
+Thread.sleep credential.split Call<AuthToken>.execute Response<AuthToken>.message Response<AuthToken>.isSuccessful Response<AuthToken>.body e.getLocalizedMessage
+Activity.startActivity Activity.finish
+LayoutInflater.inflate View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById View.findViewById Button.setOnClickListener View.new
+String.equals TextUtils.isEmpty TextUtils.isEmpty View.requestFocus UUID.fromString
+String.length
+String.length
+View.setVisibility View.animate View.setVisibility View.setVisibility View.animate View.setVisibility View.setVisibility View.setVisibility
+Call<AuthToken>.execute Response<AuthToken>.message Response<AuthToken>.isSuccessful Response<AuthToken>.body e.getLocalizedMessage
+Activity.startActivity Activity.finish
+String.new ListView.setAdapter LayoutInflater.inflate View.findViewById Call<ListToken>.enqueue response.body List<MarkedPlaceDTO>.size List<MarkedPlaceDTO>.get HashMap<String,Object>.put HashMap<String,Object>.put List<HashMap<String,Object>>.add SimpleAdapter.new
+TextView.new Button.setOnClickListener
+Snackbar.make View.new String.new String.new
+AutoCompleteTextView.setError AutoCompleteTextView.getText TextUtils.isEmpty TextUtils.isEmpty AutoCompleteTextView.setError AutoCompleteTextView.setError View.requestFocus
+String.length
+View.setVisibility View.animate View.setVisibility View.setVisibility View.animate View.setVisibility View.setVisibility View.setVisibility
+Uri.withAppendedPath String.new
+Cursor.moveToFirst Cursor.isAfterLast List<String>.add Cursor.getString Cursor.moveToNext
+AutoCompleteTextView.setAdapter
+TabLayout.setupWithViewPager Call<ListToken>.enqueue response.body
+SupportMapFragment.new SupportMapFragment.getMapAsync ViewPager.setAdapter
+LatLng.new MarkerOptions.new GoogleMap.addMarker Marker.setTag GoogleMap.moveCamera CameraUpdateFactory.newLatLngZoom GoogleMap.setOnInfoWindowClickListener GoogleMap.setBuildingsEnabled
+Marker.getTag Gson.new
+SupportMapFragment.getMapAsync Math.rint TextView.setText String.toString TextView.setText TextView.setText Call<RatingsToken>.enqueue response.body List<PublicRatingDTO>.size List<PublicRatingDTO>.get HashMap<String,Object>.put HashMap<String,Object>.put HashMap<String,Object>.put List<HashMap<String,Object>>.add SimpleAdapter.new ListView.getContext String.new ListView.setAdapter
+LatLng.new MarkerOptions.new GoogleMap.addMarker CameraPosition.new GoogleMap.moveCamera CameraUpdateFactory.newCameraPosition GoogleMap.setBuildingsEnabled
+Retrofit.new GsonConverterFactory.create
+PreferenceManager.getDefaultSharedPreferences SharedPreferences.getString SharedPreferences.getString SharedPreferences.getString SharedPreferences.getString SharedPreferences.getString UUID.fromString UUID.fromString Integer.parseInt
+PreferenceManager.getDefaultSharedPreferences SharedPreferences.edit SharedPreferences.Editor.putString SharedPreferences.Editor.putString SharedPreferences.Editor.putString SharedPreferences.Editor.putString SharedPreferences.Editor.putString SharedPreferences.Editor.apply
+InstrumentationRegistry.getTargetContext Context.getPackageName
+LayoutInflater.from ViewGroup.getContext
+List<Hero>.get Picasso.get
+List<Hero>.size
+View.findViewById View.findViewById View.findViewById View.findViewById
+RecyclerView.setHasFixedSize RecyclerView.setLayoutManager Call<List<Hero>>.enqueue response.body RecyclerView.setAdapter t.getMessage
+Retrofit.new GsonConverterFactory.create
+Context.lookup DataSource.getConnection e.printStackTrace e.getMessage
+con.prepareStatement pst.executeQuery ResultSet.next List<CityDomain>.add
+con.prepareStatement pst.setInt pst.executeQuery ResultSet.next
+ResultSet.getInt ResultSet.getString ResultSet.getInt
+con.prepareStatement pst.setString pst.setInt pst.executeUpdate
+con.prepareStatement pst.setString pst.setInt pst.setInt pst.executeUpdate
+con.prepareStatement pst.setInt pst.executeUpdate
+con.prepareStatement pst.executeQuery ResultSet.next List<StateDomain>.add
+con.prepareStatement pst.setInt pst.executeQuery ResultSet.next
+ResultSet.getInt ResultSet.getString
+con.prepareStatement pst.setString pst.executeUpdate
+con.prepareStatement pst.setString pst.setInt pst.executeUpdate
+con.prepareStatement pst.setInt pst.executeUpdate
+HttpServletRequest.getMethod StringBuilder.new HttpServletRequest.getReader BufferedReader.read StringBuilder.append BufferedReader.close StringBuilder.toString
+HttpServletRequest.getAttribute HttpServletRequest.getAttribute HttpServletRequest.getAttribute HttpServletRequest.getAttribute HttpServletRequest.getAttribute HttpServletRequest.getContentType HttpServletResponse.setContentType HashMap<String,String>.put Integer.toString HashMap<String,String>.put StringWriter.new PrintWriter.new Throwable.printStackTrace HashMap<String,String>.put StringWriter.toString HttpServletResponse.getWriter HttpServletResponse.setContentType HttpServletRequest.setAttribute HttpServletRequest.setAttribute HttpServletRequest.setAttribute HttpServletRequest.setAttribute HttpServletRequest.setAttribute Throwable.getClass HttpServletRequest.setAttribute Throwable.getMessage HttpServletRequest.getRequestDispatcher
+HttpServletResponse.setContentType HttpServletResponse.getWriter HttpServletResponse.getWriter e.toString
+HttpServletResponse.setContentType HashMap<String,String>.put HashMap<String,String>.put HashMap<String,String>.put e.getMessage HttpServletResponse.getWriter
+HttpServletRequest.getRequestDispatcher
+HttpServletRequest.getRequestDispatcher
+HttpServletResponse.setContentType HttpServletResponse.getWriter HttpServletResponse.getWriter e.toString
+HttpServletResponse.setContentType HashMap<String,String>.put HashMap<String,String>.put HashMap<String,String>.put e.getMessage HttpServletResponse.getWriter
+HttpServletResponse.setContentType HttpServletRequest.getReader HashMap<String,String>.put HashMap<String,String>.put HashMap<String,String>.put e.getMessage HttpServletResponse.getWriter
+HttpServletRequest.getParameter Integer.valueOf HttpServletRequest.getParameter HttpServletRequest.setAttribute HttpServletRequest.setAttribute e.printStackTrace HttpServletRequest.getRequestDispatcher
+HttpServletRequest.getRequestDispatcher
