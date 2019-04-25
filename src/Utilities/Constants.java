@@ -16,5 +16,23 @@ public class Constants {
 	//167 projects
 	
 	//public static String DATABASE = "jdbc:mysql://localhost/facer_test_repo_27_4_2018?useSSL=false&user=root";
-	public static String DATABASE = "jdbc:mysql://localhost/musicplayer?useSSL=false&user=root";
+	//public static String DATABASE = "jdbc:mysql://localhost/musicplayer?useSSL=false&user=root";
+	
+	//public static String DATABASE = "jdbc:mysql://localhost/unitygames?useSSL=false&user=root";
+	//public static String DATABASE = "jdbc:mysql://localhost/combined_repo?useSSL=false&user=root";
+	
+	
+	//1288 projects
+	public static String DATABASE = "jdbc:mysql://localhost/shamsa_db_7_3_2018?useSSL=false&user=root";
+	
+	//56 plus file plus weather projects
+	//public static String DATABASE = "jdbc:mysql://localhost/56plus?useSSL=false&user=root";
+	
+	//101repo
+	//public static String DATABASE = "jdbc:mysql://localhost/101repo?useSSL=false&user=root";
+
+	
+	//167
+	//public static String DATABASE = "jdbc:mysql://localhost/167plus?useSSL=false&user=root";
 }
+

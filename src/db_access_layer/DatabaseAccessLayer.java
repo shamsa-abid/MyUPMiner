@@ -54,7 +54,7 @@ public class DatabaseAccessLayer {
         this.connector = DriverManager.getConnection(Utilities.Constants.DATABASE);       
 
         this.APICallSelection = this.connector.prepareStatement(
-   				"SELECT id, api_name, api_usage from api_call where api_name NOT IN ('Toast', 'Log','Intent','EditText') ");
+   				"SELECT id, api_name, api_usage from api_call where api_name NOT IN ('Toast', 'Log', 'Intent', 'EditText', 'String') ");
         this.APICallIndexSelection = this.connector
 				.prepareStatement("SELECT id FROM api_call_index WHERE INSTR(api_call, ?) > 0 ");
         this.APICallIndexInsertion = this.connector
@@ -72,9 +72,9 @@ public class DatabaseAccessLayer {
         this.connector = DriverManager.getConnection(Utilities.Constants.DATABASE);       
 
         this.APICallSelection = this.connector.prepareStatement(
-   				"SELECT id, host_method_id, api_call_index_id from api_call where api_name NOT IN ('Toast', 'Log','Intent','EditText') and host_method_id != 0 order by host_method_id ASC");
+   				"SELECT id, host_method_id, api_call_index_id from api_call where api_name NOT IN ('Toast', 'Log','Intent','EditText', 'String') and host_method_id != 0 order by host_method_id ASC");
         this.APIDataSelection = this.connector.prepareStatement(
-   				"SELECT id, host_method_id, api_name, api_usage from api_call where api_name NOT IN ('Toast', 'Log','Intent','EditText') and host_method_id != 0 order by host_method_id ASC");
+   				"SELECT id, host_method_id, api_name, api_usage from api_call where api_name NOT IN ('Toast', 'Log','Intent','EditText', 'String') and host_method_id != 0 order by host_method_id ASC");
         this.SequenceInsertion = this.connector
 				.prepareStatement("INSERT INTO sequence VALUES(0,?,?)");//, Statement.RETURN_GENERATED_KEYS); 
         this.SequenceSelection1 = this.connector.prepareStatement(
@@ -117,6 +117,7 @@ public class DatabaseAccessLayer {
     	this.connector.close();
     }
     public void populateAPICallIndex() throws SQLException {
+    	int count = 0;
     	
     	APICall apiCall = new APICall();
     	ResultSet apiCallsResultSet = APICallSelection.executeQuery();
@@ -124,6 +125,9 @@ public class DatabaseAccessLayer {
     	//iterate on every api call
     	while(apiCallsResultSet.next())
     	{            	
+    		count += 1;
+    		System.out.println("Currently on: " + count);
+    		
     		apiCall.id = apiCallsResultSet.getInt(1);
     		apiCall.api_name = apiCallsResultSet.getString(2);
     		apiCall.api_usage = apiCallsResultSet.getString(3);
@@ -154,8 +158,9 @@ public class DatabaseAccessLayer {
         			APICallUpdation.addBatch();
                 }
                 rs.close();
-        		
+        		System.out.println("Added");
     		}
+    		
     		apiCallIndexResultSet.close();
 
     	}
@@ -174,14 +179,20 @@ public class DatabaseAccessLayer {
 		ResultSet apiCallsResultSet = APICallSelection.executeQuery();
 		String sequence = "";
 		int prev_methodID = -1;
+		ArrayList<Integer> api_indexes = new ArrayList<Integer>();
 
     	//iterate on every api call
     	while(apiCallsResultSet.next())
     	{       
     		int method_id = apiCallsResultSet.getInt(2);
     		int index_id = apiCallsResultSet.getInt(3);
-    		if(method_id == prev_methodID || prev_methodID == -1)
-    			sequence = sequence.concat(Integer.toString(index_id)+ " ");
+    		
+    		if(method_id == prev_methodID || prev_methodID == -1){
+    			if(!api_indexes.contains(index_id)){
+    				api_indexes.add(index_id);
+    				sequence = sequence.concat(Integer.toString(index_id)+ " ");
+    			}
+    		}
     		else
     		{
     			//insert sequence string in sequence table
@@ -192,7 +203,8 @@ public class DatabaseAccessLayer {
     			SequenceInsertion.addBatch();  
     			sequence = "";
     			sequence = sequence.concat(Integer.toString(index_id)+ " ");
-    			
+    			api_indexes.clear();
+    			api_indexes.add(index_id);
     		}
     		prev_methodID = method_id;
     		
@@ -207,6 +219,7 @@ public class DatabaseAccessLayer {
     	APICallSelection.close();
     	SequenceInsertion.close();
     	connector.commit();
+    	System.out.println("done");
     	
 	}
 	public void populateSimScoreTable() throws SQLException {

@@ -24,7 +24,13 @@ public class WriteClusters {
 		//then read a csv file and parse it to get the cluster IDs in an array
 		//LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDs("clusterIDs.csv");
 		//LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDSequenceIDsMapping("clusterIDs10projectwithignore.csv");
-		LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDSequenceIDsMapping("F:/PhD/PhD Defense/Code/R/clusterIDs_musicplayer_all_seqid.csv");
+		//LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDSequenceIDsMapping("F:/PhD/PhD Defense/Code/R/clusterIDs_musicplayer_all_seqid.csv");
+		//LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDSequenceIDsMapping("F:/PhD/PhD Defense/Code/R/clusterIDs_tenchatapps.csv");
+		//LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDSequenceIDsMapping("F:/PhD/PhD Defense/Code/R/clusterIDs_unitygames.csv");
+		//LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDSequenceIDsMapping("F:/PhD/PhD Defense/Code/R/clusterIDs_combined_repo.csv");
+		//LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDSequenceIDsMapping("F:/PhD/PhD Defense/Code/R/clusterIDs_167.csv");
+		//LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDSequenceIDsMapping("F:/PhD/PhD Defense/Code/R/clusterIDs_56plus.csv");
+		LinkedHashMap<Integer, ArrayList<Integer>> clusterIDList = getClusterIDSequenceIDsMapping("F:/PhD/PhD Defense/Code/R/clusterIDs_101repowithspaces.csv");
 		
 		//and store the clsuterDTO with the obtained IDs in the clsuterDTO list
 		Set<Entry<Integer, ArrayList<Integer>>> entries = clusterIDList.entrySet();
